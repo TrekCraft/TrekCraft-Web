@@ -5,6 +5,10 @@ file = "TrekCraft Instance 501/TrekCraft.zip"
 hash = "ae0ae33167bd60719a36d845c75589db73083ca3bd6e4589f310e227fa016d43"
 
 [[files]]
+file = "mods/Kelvin_Mod_v2.0.1.jar"
+hash = "bf416501e6c2748d2c33beeb9c55370a42853229a34e29ccf8853b717dd6a5ef"
+
+[[files]]
 file = "mods/badpackets.pw.toml"
 hash = "060665ce200da0e1ff92de80bf5e49954ce12956cc179445ae190b3be25bf3d3"
 metafile = true
@@ -25,6 +29,11 @@ hash = "0cf453585992c688cdc1dfb4bc284dbc920714cf08634ae7b564b6b1ee06cdb1"
 metafile = true
 
 [[files]]
+file = "mods/extended-slabs-plus.pw.toml"
+hash = "b5dd2bc76404316592acfffb5803588546c71387ff49c819b45f9b80c67c071e"
+metafile = true
+
+[[files]]
 file = "mods/full-brightness-toggle.pw.toml"
 hash = "bcecd31982fd9eeab0e1306bb2302d07e7bb47a2af0b766679640bb66778a1ae"
 metafile = true
@@ -32,11 +41,6 @@ metafile = true
 [[files]]
 file = "mods/jei.pw.toml"
 hash = "ce5d2baed88bd178956579872719f896f6531ed3692dab4d368cf12445e8f231"
-metafile = true
-
-[[files]]
-file = "mods/kelvin_mod.pw.toml"
-hash = "ca05d7fcdfb917057d3c92c4cb0d75347afa9c99e8b473ee2da3023d9a2ed694"
 metafile = true
 
 [[files]]
@@ -61,7 +65,7 @@ metafile = true
 
 [[files]]
 file = "mods/trekcraft_mod.pw.toml"
-hash = "0430404a106140bc60b9bd9cde25078871f53f4663b13030a8e5384b83a5aa67"
+hash = "50fb1ec364ad1820435f2c9e2dfc9921e6ab23f4229333a8549d5c52d893b6d5"
 metafile = true
 
 [[files]]
