@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "TrekCraft Instance 501/TrekCraft.zip"
+hash = "ae0ae33167bd60719a36d845c75589db73083ca3bd6e4589f310e227fa016d43"
+
+[[files]]
 file = "mods/badpackets.pw.toml"
 hash = "060665ce200da0e1ff92de80bf5e49954ce12956cc179445ae190b3be25bf3d3"
 metafile = true
@@ -33,11 +37,6 @@ metafile = true
 [[files]]
 file = "mods/kelvin_mod.pw.toml"
 hash = "ca05d7fcdfb917057d3c92c4cb0d75347afa9c99e8b473ee2da3023d9a2ed694"
-metafile = true
-
-[[files]]
-file = "mods/macrokeybinds.pw.toml"
-hash = "545bd38becb29e7d448e01f23a65945165eb25745b72d4c1c1e2026e192b7e9a"
 metafile = true
 
 [[files]]
