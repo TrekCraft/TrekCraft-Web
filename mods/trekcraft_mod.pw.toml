@@ -1,8 +1,8 @@
 name = "TrekCraft Mod"
-filename = "TrekCraft_Mod_v5.0.1.jar"
+filename = "TrekCraft_Mod_v5.0.0.jar"
 side = "both"
 
 [download]
 url= "https://drive.google.com/uc?export=download&id=14vcH02QHZ4p5apFD83ulrR0t20aYTqzt"
-hash-format = "sha256"
-hash = "c77a2c1bf23232110fcf018cd36a5557c7eac82b21dff1fc60ac0a04656b90f0"
+hash-format = "sha1"
+hash = "D5F644358B133822ED7053FB3A16E9BF22602E0F"
