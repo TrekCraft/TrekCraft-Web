@@ -1,0 +1,13 @@
+name = "Macro Keybinds"
+filename = "[1.18.1] MacroKeybindsMod-1.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b289a595e7498c98510c2d39a3c22258eeae54a4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4443708
+project-id = 543759

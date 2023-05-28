@@ -1,0 +1,16 @@
+name = "TrekCraft"
+author = "TrekCraft"
+version = "5.0.1"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "4e71d8c87ebcd0fce3e6fd625e6fc341247aa9bf7b798116eb74202dfc66c944"
+
+[versions]
+forge = "40.2.0"
+minecraft = "1.18.2"
+
+[options]
+acceptable-game-versions = ["1.18.1"]
