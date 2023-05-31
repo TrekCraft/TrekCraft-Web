@@ -1,8 +1,0 @@
-name = "TrekCraft Mod"
-filename = "TrekCraft_Mod_v5.0.0.jar"
-side = "both"
-
-[download]
-url= "https://www.dropbox.com/s/qljhpcohgaza6il/TrekCraft_Mod_v5.0.0.jar?dl=1"
-hash-format = "sha1"
-hash = "D5F644358B133822ED7053FB3A16E9BF22602E0F"

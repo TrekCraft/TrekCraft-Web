@@ -1,8 +1,0 @@
-name = "Kelvin Mod"
-filename = "kelvin_mod_v2.0.1.jar"
-side = "both"
-
-[download]
-url= "https://drive.google.com/uc?export=download&id=1wNJocizx3gpyUWerOBjEFId6d_T1ZFla"
-hash-format = "sha1"
-hash = "8f240646e97a6c82fb1bfa4ebc421a9903ace4e4"
