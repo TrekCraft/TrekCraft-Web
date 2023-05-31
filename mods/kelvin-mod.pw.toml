@@ -1,0 +1,13 @@
+name = "Kelvin Mod"
+filename = "Kelvin_Mod_v2.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/VQRh1Xsu/versions/FMv0QdxY/Kelvin_Mod_v2.0.1.jar"
+hash-format = "sha1"
+hash = "8f240646e97a6c82fb1bfa4ebc421a9903ace4e4"
+
+[update]
+[update.modrinth]
+mod-id = "VQRh1Xsu"
+version = "FMv0QdxY"

@@ -1,12 +1,132 @@
 hash-format = "sha256"
 
 [[files]]
-file = "TrekCraft Instance 501/TrekCraft.zip"
-hash = "ae0ae33167bd60719a36d845c75589db73083ca3bd6e4589f310e227fa016d43"
+file = "CNAME"
+hash = "60eba45cdd9aa6a9e1e1533da2db7290542b38546da3e3202a63677bd727d10d"
 
 [[files]]
-file = "mods/Kelvin_Mod_v2.0.1.jar"
-hash = "bf416501e6c2748d2c33beeb9c55370a42853229a34e29ccf8853b717dd6a5ef"
+file = "LICENSE"
+hash = "230184f60bae2feaf244f10a8bac053c8ff33a183bcc365b4d8b876d2b7f4809"
+
+[[files]]
+file = "README.md"
+hash = "5856c97c393f5d7688eec1cbb34b4c9c0847b674bdc57069b35623ded7928d57"
+
+[[files]]
+file = "aboutus.html"
+hash = "31fead1f0e053254f941b8aaa767b8eec2bcce1ce34add1fc312209c2099457e"
+
+[[files]]
+file = "applications.html"
+hash = "daf1a6c8c9bbc08e5c887a3b7032080466c99b4146c82e4dab492a3e8a8412bf"
+
+[[files]]
+file = "assets/Antonio-Bold.woff"
+hash = "1bbbcc36dfff255e6e2762f44388164e1e79a70927995ecedc39d26504b048bd"
+
+[[files]]
+file = "assets/Antonio-Bold.woff2"
+hash = "9e876f2a85b14449fcff93d7f89c77931709f0dbfe5139162e45ff757cd0de01"
+
+[[files]]
+file = "assets/Antonio-Regular.woff"
+hash = "3cc39ec436fb06778245bea166f52fd77b4069e71bf2d5a5c693d6df2626c27f"
+
+[[files]]
+file = "assets/Antonio-Regular.woff2"
+hash = "29937828fe693595fa5634698a3834ada4ecc3fbcfd27393715a9b38daf9177c"
+
+[[files]]
+file = "assets/jquery-3.6.3.min.js"
+hash = "a6f3f0faea4b3d48e03176341bef0ed3151ffbf226d4c6635f1c6039c0500575"
+
+[[files]]
+file = "assets/lcars-colors.css"
+hash = "c71ae6e8a101e0c1ecb387fd7b90cfc4529571aec8611bd1bf2617a3ac31053c"
+
+[[files]]
+file = "assets/lcars-ultra-classic.css"
+hash = "eeda904784d4524ad21747f9a154286868e1e4bc09d405bb1681d12c200074b9"
+
+[[files]]
+file = "assets/lcars.js"
+hash = "1f9fe8df7f2fda6d3f69260d125b56340cd59ece9caf472d5f74435d27197429"
+
+[[files]]
+file = "dynmap.html"
+hash = "e4f5197b2292743f87e01b9af8ec62edfc065a6ac2cbf3eec98879224d93c776"
+
+[[files]]
+file = "gallery.html"
+hash = "a8f6088b9ce03dc503547fe1eb3bababf6ddf16b6f02a0d09963059d53ddb89d"
+
+[[files]]
+file = "images/StaffTeam.jpg"
+hash = "895a64eea796f71affba6f228dda34ebb615efd56608fc948a9d093a510ac654"
+
+[[files]]
+file = "images/group_photo_new.png"
+hash = "288348204dc9e304871fa5fb5dd78ac3f40944db7f5c94b0b3e2adc33341e762"
+
+[[files]]
+file = "images/halkun.png"
+hash = "fa6e5004126de5f31143c79290702ac36b8b25ae5a766b10080ca4bc09173059"
+
+[[files]]
+file = "images/lineage.png"
+hash = "c626ffd10ddbaa38f91d6529d15f5157e8b81208c468a81a1136c2d87dfa539f"
+
+[[files]]
+file = "images/minetrek.png"
+hash = "4f9c80ad5d3e5a87624637afcc602db568d5e0383a465c77cded7780f625d31e"
+
+[[files]]
+file = "index.html"
+hash = "b0d77605f5f83eb2fa32246d0bfd3e10b7bad307c46ecaec7c3a12c7e66a3d30"
+
+[[files]]
+file = "lcars-ultra-classic.html"
+hash = "efac6c6bf55bab302dfe10c88d4f3e5e4e8defe0b108f96d5a666a89c133dbd9"
+
+[[files]]
+file = "logs/assets/Antonio-Bold.woff"
+hash = "1bbbcc36dfff255e6e2762f44388164e1e79a70927995ecedc39d26504b048bd"
+
+[[files]]
+file = "logs/assets/Antonio-Bold.woff2"
+hash = "9e876f2a85b14449fcff93d7f89c77931709f0dbfe5139162e45ff757cd0de01"
+
+[[files]]
+file = "logs/assets/Antonio-Regular.woff"
+hash = "3cc39ec436fb06778245bea166f52fd77b4069e71bf2d5a5c693d6df2626c27f"
+
+[[files]]
+file = "logs/assets/Antonio-Regular.woff2"
+hash = "29937828fe693595fa5634698a3834ada4ecc3fbcfd27393715a9b38daf9177c"
+
+[[files]]
+file = "logs/assets/jquery-3.6.3.min.js"
+hash = "a6f3f0faea4b3d48e03176341bef0ed3151ffbf226d4c6635f1c6039c0500575"
+
+[[files]]
+file = "logs/assets/lcars-colors.css"
+hash = "c71ae6e8a101e0c1ecb387fd7b90cfc4529571aec8611bd1bf2617a3ac31053c"
+
+[[files]]
+file = "logs/assets/lcars-ultra-classic.css"
+hash = "eeda904784d4524ad21747f9a154286868e1e4bc09d405bb1681d12c200074b9"
+
+[[files]]
+file = "logs/assets/lcars.js"
+hash = "1f9fe8df7f2fda6d3f69260d125b56340cd59ece9caf472d5f74435d27197429"
+
+[[files]]
+file = "logs/log_1.html"
+hash = "ab224648983874b132501c8fd533319329af31f3c86fac35ebae8c98dd43f455"
+
+[[files]]
+file = "meet-the-team.html"
+hash = "730d8b205bfda64bca1acb6b8d18ee7dbf677eab2213d3a57e5fab76a52785ae"
 
 [[files]]
 file = "mods/badpackets.pw.toml"
@@ -25,7 +145,7 @@ metafile = true
 
 [[files]]
 file = "mods/connectedness.pw.toml"
-hash = "0cf453585992c688cdc1dfb4bc284dbc920714cf08634ae7b564b6b1ee06cdb1"
+hash = "921b3b769a72f8af087b0fc9678f85c41215ae9060a2d89f02115063547371b8"
 metafile = true
 
 [[files]]
@@ -41,6 +161,11 @@ metafile = true
 [[files]]
 file = "mods/jei.pw.toml"
 hash = "ce5d2baed88bd178956579872719f896f6531ed3692dab4d368cf12445e8f231"
+metafile = true
+
+[[files]]
+file = "mods/kelvin-mod.pw.toml"
+hash = "5602904beea823ae9fff03bf3323c926d6e7138fa46fae2fc6aaf7a3a3732efe"
 metafile = true
 
 [[files]]
@@ -64,8 +189,8 @@ hash = "ae96852dffcc7cf0bcf5c80519c5a53daf52dd8a444f95743fdd4af1d86d976d"
 metafile = true
 
 [[files]]
-file = "mods/trekcraft_mod.pw.toml"
-hash = "3e00ea88788bcb176fd730aeaa700d964f1592f52ccddd53f3604dffef1a2fc5"
+file = "mods/trekcraft-mod.pw.toml"
+hash = "96cfc44c1e823b9136fd7bcdd6f29c4d22312dd332ca398797140bfa14ee7606"
 metafile = true
 
 [[files]]
@@ -82,3 +207,12 @@ metafile = true
 file = "mods/xaeros-world-map.pw.toml"
 hash = "2e2a1c1cbbd46552694dcbba482466314084c64982bc24ba1df361472ec86b0b"
 metafile = true
+
+[[files]]
+file = "resourcepacks/trekcraft-rp.pw.toml"
+hash = "adf6558bf99236d16986cc52b9096ed6188945c80c62ca99b0ccc1bdafe67443"
+metafile = true
+
+[[files]]
+file = "server-guide.html"
+hash = "4ffeb20810c6e13e93eb33c7e636858aee50387263a424a3ed07a8a44f37db43"
