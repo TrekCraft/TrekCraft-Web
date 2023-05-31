@@ -1,0 +1,86 @@
+hash-format = "sha256"
+
+[[files]]
+file = "mods/badpackets.pw.toml"
+hash = "060665ce200da0e1ff92de80bf5e49954ce12956cc179445ae190b3be25bf3d3"
+metafile = true
+
+[[files]]
+file = "mods/collective.pw.toml"
+hash = "dbad1b6a31355794f147f1d899fdd818e3f304461742fc09d042400b8c9c0f91"
+metafile = true
+
+[[files]]
+file = "mods/configured.pw.toml"
+hash = "d647c96a37237cca3668cff8e0467a411e25eb783a9ce7c7d05a414a98da986c"
+metafile = true
+
+[[files]]
+file = "mods/connectedness.pw.toml"
+hash = "5ef3147d56baa7350620ac3e80066b27e1d5b12406d8d07b36e6168c5de3efe8"
+metafile = true
+
+[[files]]
+file = "mods/extended-slabs-plus.pw.toml"
+hash = "b5dd2bc76404316592acfffb5803588546c71387ff49c819b45f9b80c67c071e"
+metafile = true
+
+[[files]]
+file = "mods/full-brightness-toggle.pw.toml"
+hash = "bcecd31982fd9eeab0e1306bb2302d07e7bb47a2af0b766679640bb66778a1ae"
+metafile = true
+
+[[files]]
+file = "mods/jei.pw.toml"
+hash = "ce5d2baed88bd178956579872719f896f6531ed3692dab4d368cf12445e8f231"
+metafile = true
+
+[[files]]
+file = "mods/kelvin-mod.pw.toml"
+hash = "5602904beea823ae9fff03bf3323c926d6e7138fa46fae2fc6aaf7a3a3732efe"
+metafile = true
+
+[[files]]
+file = "mods/oculus.pw.toml"
+hash = "4d0ba601a8cb2fdb4162fed85a1f042dd969098a9148b00b729bfc698fab76c0"
+metafile = true
+
+[[files]]
+file = "mods/reforgium.pw.toml"
+hash = "ecb5c76fefc69500c004cabf055a7b1755817bbd3e4a5b24a79a55cc549099f4"
+metafile = true
+
+[[files]]
+file = "mods/rubidium.pw.toml"
+hash = "07820f2e9cf69d227919b049139bb03f83332d3ca2af5b4253c6e88893c47680"
+metafile = true
+
+[[files]]
+file = "mods/smooth-boot-reloaded.pw.toml"
+hash = "ae96852dffcc7cf0bcf5c80519c5a53daf52dd8a444f95743fdd4af1d86d976d"
+metafile = true
+
+[[files]]
+file = "mods/trekcraft-mod.pw.toml"
+hash = "96cfc44c1e823b9136fd7bcdd6f29c4d22312dd332ca398797140bfa14ee7606"
+metafile = true
+
+[[files]]
+file = "mods/worldeditcui-forge-edition-3.pw.toml"
+hash = "855a7a380899c64f206ec473f4280a8e022ed7cdb2d139d19625150ab479d83f"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-minimap.pw.toml"
+hash = "130fd23e4e513d66c24a432169e04a29e36b4a9badeef83b015ddddbc802f6d0"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-world-map.pw.toml"
+hash = "2e2a1c1cbbd46552694dcbba482466314084c64982bc24ba1df361472ec86b0b"
+metafile = true
+
+[[files]]
+file = "resourcepacks/trekcraft-rp.pw.toml"
+hash = "adf6558bf99236d16986cc52b9096ed6188945c80c62ca99b0ccc1bdafe67443"
+metafile = true
