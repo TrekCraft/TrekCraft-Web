@@ -17,7 +17,7 @@ metafile = true
 
 [[files]]
 file = "mods/connectedness.pw.toml"
-hash = "5ef3147d56baa7350620ac3e80066b27e1d5b12406d8d07b36e6168c5de3efe8"
+hash = "921b3b769a72f8af087b0fc9678f85c41215ae9060a2d89f02115063547371b8"
 metafile = true
 
 [[files]]
