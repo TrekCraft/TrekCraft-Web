@@ -71,6 +71,11 @@ hash = "855a7a380899c64f206ec473f4280a8e022ed7cdb2d139d19625150ab479d83f"
 metafile = true
 
 [[files]]
+file = "mods/wthit-forge.pw.toml"
+hash = "732e0a3b14e047e65d1c5df70adce125173007db0d4ccc90926febf53d22fc9d"
+metafile = true
+
+[[files]]
 file = "mods/xaeros-minimap.pw.toml"
 hash = "130fd23e4e513d66c24a432169e04a29e36b4a9badeef83b015ddddbc802f6d0"
 metafile = true
