@@ -37,7 +37,7 @@ metafile = true
 
 [[files]]
 file = "mods/kelvin-mod.pw.toml"
-hash = "5602904beea823ae9fff03bf3323c926d6e7138fa46fae2fc6aaf7a3a3732efe"
+hash = "344eab920cd2b2d815dda62f7ee6fcc760e33e0cf403e1c34931ae23323e7a93"
 metafile = true
 
 [[files]]
@@ -62,7 +62,7 @@ metafile = true
 
 [[files]]
 file = "mods/trekcraft-mod.pw.toml"
-hash = "96cfc44c1e823b9136fd7bcdd6f29c4d22312dd332ca398797140bfa14ee7606"
+hash = "865d3fa51eded9fba00925b0f24ed0da4d0439771be2c2b0da98011bc9b9b4ab"
 metafile = true
 
 [[files]]
@@ -87,5 +87,5 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/trekcraft-rp.pw.toml"
-hash = "adf6558bf99236d16986cc52b9096ed6188945c80c62ca99b0ccc1bdafe67443"
+hash = "d17ef3b14bdff5ac03ca6cf9389bf8f8f328b4c212512debd79b0b485959a282"
 metafile = true
