@@ -62,7 +62,7 @@ metafile = true
 
 [[files]]
 file = "mods/trekcraft-mod.pw.toml"
-hash = "9c148a2de7ffb5ddd41b2e30acf83c108edb8f29ce695aef47f79afe19644aac"
+hash = "e584b0368ec2f059aa02d7ae3b34f01af02da194fc88ee6455e8946f34d4a034"
 metafile = true
 
 [[files]]
