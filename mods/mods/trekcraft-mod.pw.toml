@@ -1,13 +1,13 @@
 name = "TrekCraft Mod"
-filename = "TrekCraft_Mod_v5.2.0.jar"
+filename = "TrekCraft_Mod_v5.1.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/ecfib1P1/versions/nD4yZLKI/TrekCraft_Mod_v5.2.0.jar"
+url = "https://cdn.modrinth.com/data/ecfib1P1/versions/DD4NS7YA/TrekCraft_Mod_v5.1.1.jar"
 hash-format = "sha1"
-hash = "5fb10741b230476f6ef1e49cd4e97b07fc761a6a"
+hash = "3d46d68c309af24b06b10a49748b1a57439cf98e"
 
 [update]
 [update.modrinth]
 mod-id = "ecfib1P1"
-version = "nD4yZLKI"
+version = "DD4NS7YA"
