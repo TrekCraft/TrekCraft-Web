@@ -1,0 +1,111 @@
+hash-format = "sha256"
+
+[[files]]
+file = "mods/badpackets.pw.toml"
+hash = "9bcb3389e104fbc89005b26c7f54062fb50d73bc7f87c79429ed2b557c223b46"
+metafile = true
+
+[[files]]
+file = "mods/betterf3.pw.toml"
+hash = "ca52b58cf0540bcec5d8b0318cddb371683b6f3f87ad9b925ff600ddd330f461"
+metafile = true
+
+[[files]]
+file = "mods/caxton.pw.toml"
+hash = "3355d2afa419f7d98c49b58ecc4f18215f69143b01de4a52113cb8622fc309cd"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "38cf4a76862812fefc9b1ae0b8fac02b3f706716f3228eb859b511950273e791"
+metafile = true
+
+[[files]]
+file = "mods/collective.pw.toml"
+hash = "ce687b5880e14a15a6c568db9e0676a5e2f210198c109f56426e71a50b13a165"
+metafile = true
+
+[[files]]
+file = "mods/connector-extras.pw.toml"
+hash = "28316a07bf2e2682cdb1fe096c70c498dd1d871181d39cf2dce738781d1df09d"
+metafile = true
+
+[[files]]
+file = "mods/connector.pw.toml"
+hash = "62311f08bcbcf2083bd603472c30a4bc534ce86bc3dfcb47e8c57a72c5eb46d4"
+metafile = true
+
+[[files]]
+file = "mods/continuity.pw.toml"
+hash = "bb7b31de1f5c7941aff59030d59168a5971e8c47884bcd8905637836ff97ce46"
+metafile = true
+
+[[files]]
+file = "mods/embeddium.pw.toml"
+hash = "8f092eb1e79c0cba82a38996191ae92406db4e120325b4838deba6b231cd0d90"
+metafile = true
+
+[[files]]
+file = "mods/extended-slabs-plus.pw.toml"
+hash = "d9c0cbff746d21af6f6e1b2274f9e5675e2401778be9864e3d2f1bbb080092b7"
+metafile = true
+
+[[files]]
+file = "mods/forgified-fabric-api.pw.toml"
+hash = "0e0f6b3047cdbfaf9add707ca6d6762c3aef6f4f3de5fdd855a99a23e79a55b3"
+metafile = true
+
+[[files]]
+file = "mods/full-brightness-toggle.pw.toml"
+hash = "be281b24db1fed65fb0869141e834adff1176b90d004a5aa11dbf2e5cf9b09e6"
+metafile = true
+
+[[files]]
+file = "mods/journeymap.pw.toml"
+hash = "7937f07a105862d70f937beef9e58bfefc64891bd711bed5934a73dec803f161"
+metafile = true
+
+[[files]]
+file = "mods/lazurite.pw.toml"
+hash = "c397996477dbd2c0055f4737422f8882f890afb6084003ec465f34067dbcf4f4"
+metafile = true
+
+[[files]]
+file = "mods/macrokeybinds.pw.toml"
+hash = "676829be6bf6cf3b27f4dbc6b7d889946897155925c75e963ab93c17ffdead21"
+metafile = true
+
+[[files]]
+file = "mods/my-server-is-compatible.pw.toml"
+hash = "6f8f5ce7ef336c23d0828e1371ef8dccb565995d51f01db00e6094e87f9271df"
+metafile = true
+
+[[files]]
+file = "mods/no-chat-reports.pw.toml"
+hash = "9a3c80bf6eee8234001d2a1602b3e123ac5706af051902e40f24abe317b86e50"
+metafile = true
+
+[[files]]
+file = "mods/oculus.pw.toml"
+hash = "4a68abb339f8993d6e5809fe0255752837176dff9a28c27b70dfd9da939bf410"
+metafile = true
+
+[[files]]
+file = "mods/rubidium-extra.pw.toml"
+hash = "9e55f33aebab473d5cdad85f43fa46992fd51bf27d7729b705fcec416da67257"
+metafile = true
+
+[[files]]
+file = "mods/rubidium.pw.toml"
+hash = "e72d25a5c58f5083f26ec059b1e3231059159e18fa42ef473eb2f7e902e49b11"
+metafile = true
+
+[[files]]
+file = "mods/worldeditcui-forge.pw.toml"
+hash = "645abd4b0dd0bebeb1da113cc6d31d2ecbc1963f97d0e9137fde2048667c0e0e"
+metafile = true
+
+[[files]]
+file = "mods/wthit.pw.toml"
+hash = "d844ed361c899fdf09e1ce191f19a2d9f2d25a0b7e7e9eddbc65fa88642b6102"
+metafile = true

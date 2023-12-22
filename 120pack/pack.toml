@@ -1,0 +1,13 @@
+name = "TrekCraft 1_20_1"
+author = "TrekCraft"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "8cef945e5ec1a5bdfe718a797eaa943ceb1a9c4ac0a21f404099467a908daff8"
+
+[versions]
+forge = "47.2.0"
+minecraft = "1.20.1"
