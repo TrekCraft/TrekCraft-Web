@@ -1,0 +1,7 @@
+name = "betterladders"
+filename = "AstralsBetterLatters-1.21.1.jar"
+
+[download]
+url = "https://trekcraft-mods.s3.us-east-2.amazonaws.com/AstralsBetterLatters-1.21.1.jar"
+hash-format = "sha1"
+hash = "f0e3bf5db298a3476571de51da0482f9e0cb237c"

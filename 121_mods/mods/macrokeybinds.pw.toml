@@ -1,0 +1,13 @@
+name = "Macro Keybinds"
+filename = "1.21.1-macrokeybinds-fabric-1.3.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/2loIqHKX/versions/hGZ5qIHC/1.21.1-macrokeybinds-fabric-1.3.1.jar"
+hash-format = "sha1"
+hash = "e6fed35ea46162ea1102dcaded5c4a292b0a70a1"
+
+[update]
+[update.modrinth]
+mod-id = "2loIqHKX"
+version = "hGZ5qIHC"

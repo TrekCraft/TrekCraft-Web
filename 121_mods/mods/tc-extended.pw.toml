@@ -1,0 +1,7 @@
+name = "tc_extended"
+filename = "tc_extended-1.1.0.jar"
+
+[download]
+url = "https://trekcraft-mods.s3.us-east-2.amazonaws.com/tc_extended-1.1.0.jar"
+hash-format = "sha1"
+hash = "4acca445dba135bc5265b3bd29e31c775e51218b"

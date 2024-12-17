@@ -1,0 +1,7 @@
+name = "extradoors"
+filename = "AstralExtraDoors-1.21.1-1.jar"
+
+[download]
+url = "https://trekcraft-mods.s3.us-east-2.amazonaws.com/AstralExtraDoors-1.21.1-1.jar"
+hash-format = "sha1"
+hash = "0faf089a6bd3cd9fc042481b684bf1b9c35f81da"

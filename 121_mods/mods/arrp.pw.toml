@@ -1,0 +1,7 @@
+name = "arrp"
+filename = "arrp-0.8.3.jar"
+
+[download]
+url = "https://trekcraft-mods.s3.us-east-2.amazonaws.com/arrp-0.8.3.jar"
+hash-format = "sha1"
+hash = "3c47081d13d0951975804e046d5e80e8020aefd8"
