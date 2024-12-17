@@ -51,11 +51,6 @@ hash = "d730721b38893374c506fb502bc5e749aa44096c22e25365b6bfe18c93a110d4"
 metafile = true
 
 [[files]]
-file = "mods/caxton.pw.toml"
-hash = "4c49a1b29e913d3e272f9f5b71b944c62d9fa87a4525a992b19ef5cb80438a49"
-metafile = true
-
-[[files]]
 file = "mods/chat-heads.pw.toml"
 hash = "6e03394a05767d44c011a148cbd8f5879ef8551a17367fb516e9a6a80390178b"
 metafile = true
