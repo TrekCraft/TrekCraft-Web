@@ -3,8 +3,8 @@ filename = "cupboardfabric-1.21-2.7.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "79514292492914773ebf51e9559756cd41ae121e"
+hash-format = "sha512"
+hash = "b9ec70e82ecfb10fd3ebc606e385fe0a932e331eb73f5753ece6d2801405a763caf3db62c873df07208046a4de4c522eac431ba50ef278ecd4e504f3467f6b73"
 mode = "metadata:curseforge"
 
 [update]

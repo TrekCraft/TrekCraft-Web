@@ -4,8 +4,8 @@ side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/pbnlOdwp/versions/GtcsGFMR/chattools-1.21.1-v2.3.6.1.jar"
-hash-format = "sha1"
-hash = "1817a8b995f10bd96ab82c6b5b0d9c18e119134e"
+hash-format = "sha512"
+hash = "f217c59412c3858db8d0fd472e6d8d2faaaa19fb6b00c7408e447923e48b2e4b63dfe306952ca6606a6e458d91c16d44159bcbcb9e9c8fc7379f69ce47ea9181"
 
 [update]
 [update.modrinth]

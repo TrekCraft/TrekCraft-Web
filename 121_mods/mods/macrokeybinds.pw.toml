@@ -4,8 +4,8 @@ side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/2loIqHKX/versions/hGZ5qIHC/1.21.1-macrokeybinds-fabric-1.3.1.jar"
-hash-format = "sha1"
-hash = "e6fed35ea46162ea1102dcaded5c4a292b0a70a1"
+hash-format = "sha512"
+hash = "33c4f859709b8ab23362dd560c419d6b00743fd924e44cdabd04b8b55e9fa58e9f9183091a8be9e19e0656ae9baa41a3baae25a7deb33bc7e4db2436b5190180"
 
 [update]
 [update.modrinth]

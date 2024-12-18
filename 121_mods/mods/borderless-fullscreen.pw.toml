@@ -4,8 +4,8 @@ side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/UIexcMP1/versions/lEusGshQ/BorderlessFullscreen-v2.2.0-mc1.21.jar"
-hash-format = "sha1"
-hash = "f6b4b77bb94975104fac37262c0c161ca6722b8e"
+hash-format = "sha512"
+hash = "7fbbfebafd643b22244db41e3474fb6d100f9af12668fcec8563f6609eaf136c9c39d04e73e4ca1df2966c70f0626870f581ec48d1f301e7a58caf7203892c0f"
 
 [update]
 [update.modrinth]

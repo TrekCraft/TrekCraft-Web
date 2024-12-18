@@ -3,5 +3,5 @@ filename = "trekcraft-fabric-1.21.1-6.1.0.jar"
 
 [download]
 url = "https://trekcraft-mods.s3.us-east-2.amazonaws.com/trekcraft-fabric-1.21.1-6.1.0.jar"
-hash-format = "sha1"
-hash = "a00a7fd07ca8cad7ae22554b359b70fe51d065f3"
+hash-format = "sha512"
+hash = "11c45782642c6f2f40af20cb2410f1591b214d72752382ad34e84fa8dd0bbd8d2ecaffa2281d54d50bcc1aed69c8f7b6eb87eafb04b36360a004486d64ee0042"

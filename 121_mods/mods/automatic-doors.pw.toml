@@ -4,8 +4,8 @@ side = "server"
 
 [download]
 url = "https://cdn.modrinth.com/data/PGBgocFc/versions/8OJga66z/automaticdoors-1.21.1-4.8.jar"
-hash-format = "sha1"
-hash = "5e855609c58e4e89471e2df9318b2b58434bd1b3"
+hash-format = "sha512"
+hash = "7d5abc04164ec5d204c8e07bf751e9513dca45ac39373bc666f16f37c26a11c04f3e5165c92812c63295a19a8595da46caa0091c25b9ba53d5b2c02300cf7be8"
 
 [update]
 [update.modrinth]

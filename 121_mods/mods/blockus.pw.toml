@@ -4,8 +4,8 @@ side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/zFiY2Go0/versions/wRpcrHjd/blockus-2.9.6%2B1.21.1.jar"
-hash-format = "sha1"
-hash = "b5b186b096695eb78c1976ede21ce1cb976eeb75"
+hash-format = "sha512"
+hash = "5fafa454aa0dd84557f51c0f23902026b66b77857f15d0b69208b119d68dcb7dd03dd26d2208fd531186a64992e567888b962b1b0d70f3119eae7c727d3c8438"
 
 [update]
 [update.modrinth]
