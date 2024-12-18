@@ -67,7 +67,7 @@ metafile = true
 
 [[files]]
 file = "mods/collective.pw.toml"
-hash = "9623f66f2670a663493264072beb976b92de69d068648f43cd1b67ec488bfa69"
+hash = "97fc734f4cae192b1098173966dcaf66e8e65c0f25d3fb3a57031384927250e8"
 metafile = true
 
 [[files]]
@@ -232,7 +232,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "195cdf6919431d64b01e39bb7c9e00446578ac23dc09d4dd2082a52babf0e58e"
+hash = "b82e3d69f134d7e925b55579f6bde47a7da1d9e57ad41f5959e27e3fbcb3827d"
 metafile = true
 
 [[files]]
