@@ -3,5 +3,5 @@ filename = "AstralsBetterLatters-1.21.1.jar"
 
 [download]
 url = "https://trekcraft-mods.s3.us-east-2.amazonaws.com/AstralsBetterLatters-1.21.1.jar"
-hash-format = "sha256"
-hash = "b8cca6665c013ac276ca6999605322b81fd05b9f719f9283d31c613b6a6712a3"
+hash-format = "sha512"
+hash = "7ade2ab85a749fd181d128fd7ba0d8075e1aaf7b745cf90ddd789ccb0ab331db1e60db5b1f3029076646aaf8b89b42bf60d2e5f17023fe304795822356f038f3"

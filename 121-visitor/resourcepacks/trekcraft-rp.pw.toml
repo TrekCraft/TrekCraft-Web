@@ -3,5 +3,5 @@ filename = "TrekCraft_RP_1.21.1+Beta.zip"
 
 [download]
 url = "https://trekcraft-mods.s3.us-east-2.amazonaws.com/TrekCraft_RP_1.21.1%2BBeta.zip"
-hash-format = "sha256"
-hash = "e6359597a7dec56b35ec02d475a2f1c363e372bfa654cb922ff2e85dd13b4197"
+hash-format = "sha512"
+hash = "3dc47b87297b3e228130457be3ecf40aa1748ff9d44ef9c268060f499229bae1c6c15a87811234f66d5679e40a7a2184c7e5646951dc7ffc5745e3f81b22f2d4"

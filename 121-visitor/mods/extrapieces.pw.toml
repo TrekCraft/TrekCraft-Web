@@ -3,5 +3,5 @@ filename = "AstralsExtraPieces-1.21.1-1.0.1.jar"
 
 [download]
 url = "https://trekcraft-mods.s3.us-east-2.amazonaws.com/AstralsExtraPieces-1.21.1-1.0.1.jar"
-hash-format = "sha256"
-hash = "d235721e801afda1d77434b027f38c5533a2007b6e1850c45c843d7449fd9684"
+hash-format = "sha512"
+hash = "1e1190e9626bb0b729b2263441edb3e1cb3b4f9381dda9d19400ee5df0957eec606c39770a9eff0f2fa2f89b847a44dd7f7e5e90f77ffa1b78c6743ea7bd3a2b"
