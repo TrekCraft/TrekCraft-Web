@@ -1,0 +1,13 @@
+name = "TrekCraft 2.0 Visitor Modpack"
+author = "TrekCraft"
+version = "1.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "ebb0c10942b906f4ad06c1ad97e6be665aed6d593011b8dd423dcc9bc07b3435"
+
+[versions]
+fabric = "0.16.9"
+minecraft = "1.21.1"
