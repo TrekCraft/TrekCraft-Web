@@ -219,3 +219,8 @@ metafile = true
 file = "mods/zoomify.pw.toml"
 hash = "64f91014935fa6404876d33cb506846c5d291460c5a54be218a1e51251d61926"
 metafile = true
+
+[[files]]
+file = "resourcepacks/trekcraft-rp.pw.toml"
+hash = "41ee776952739572d4beada6bd5efffd6dc976826f4d703986c7d5ba121b1291"
+metafile = true

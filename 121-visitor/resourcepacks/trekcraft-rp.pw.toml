@@ -1,0 +1,7 @@
+name = "TrekCraft_RP"
+filename = "TrekCraft_RP_1.21.1+Beta.zip"
+
+[download]
+url = "https://trekcraft-mods.s3.us-east-2.amazonaws.com/TrekCraft_RP_1.21.1%2BBeta.zip"
+hash-format = "sha256"
+hash = "e6359597a7dec56b35ec02d475a2f1c363e372bfa654cb922ff2e85dd13b4197"
