@@ -1,0 +1,7 @@
+name = "Astral_ARRP"
+filename = "arrp-0.8.3.jar"
+
+[download]
+url = "https://trekcraft-mods.s3.us-east-2.amazonaws.com/arrp-0.8.3.jar"
+hash-format = "sha256"
+hash = "199f960c718841ba709b00da20c3c77055190294f5b92646a89c33ebd758093e"

@@ -7,11 +7,6 @@ url = "https://cdn.modrinth.com/data/1IjD5062/versions/kSPJ4hQv/continuity-3.0.0
 hash-format = "sha512"
 hash = "3601ddb50f19142c087d32525bc0afcfb5f49a2e7477b6645a98ec191218739fdf3c6ac95cd298e826eb34fc533af43bb0e78c64e51292866ecabade4d14b13a"
 
-[option]
-optional = "true"
-default = "true"
-description = "Continuity enables connected textures which are used heavily throughout TrekCraft. However, it does not work on Apple Silicon, or older PC's. It's recommended to enable this mod unless you have older hardware (Nvidia 900 series or older)"
-
 [update]
 [update.modrinth]
 mod-id = "1IjD5062"

@@ -1,0 +1,7 @@
+name = "KTMod"
+filename = "ktmod-3.1.1.jar"
+
+[download]
+url = "https://trekcraft-mods.s3.us-east-2.amazonaws.com/ktmod-3.1.1.jar"
+hash-format = "sha256"
+hash = "3e73ffaecd25a913966552fa27f57b9c3cfd337f2750796baec5236d0ba24cfc"
