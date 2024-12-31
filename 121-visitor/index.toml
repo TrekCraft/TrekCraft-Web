@@ -6,6 +6,26 @@ hash = "1102440dd2533ba3a154419bb95ff1f81b858201eb0c44d2a2eea486c74e565a"
 metafile = true
 
 [[files]]
+file = "mods/astral-arrp.pw.toml"
+hash = "e85d8d61580e9074184ae52a30bc57e46086b307e71a537a2c1aca122beef559"
+metafile = true
+
+[[files]]
+file = "mods/astralblocks.pw.toml"
+hash = "2d905e411abb670275cbcab267dc20ed8e1287fa9c04ec669ec65a781a8d6fd7"
+metafile = true
+
+[[files]]
+file = "mods/astraldoors.pw.toml"
+hash = "589fca19bf36be5cb0a982cad5b5a81df83164f5d5552569fa7e3ce255f21b59"
+metafile = true
+
+[[files]]
+file = "mods/astralladders.pw.toml"
+hash = "0caabbd0d2ae4b0280333557e9131b6e4e1e48d2cb6dfd5df89177c6866ffd75"
+metafile = true
+
+[[files]]
 file = "mods/automatic-doors.pw.toml"
 hash = "5994e013f80256cbbd8d360519689acbb051d46fd0b37983a3eed43415ec7e4f"
 metafile = true
@@ -42,7 +62,7 @@ metafile = true
 
 [[files]]
 file = "mods/continuity.pw.toml"
-hash = "f45f6e25436c82858892e87f263e45b5095d6a24a6f0960c79bcd8c7fface10a"
+hash = "4f97764f3cb4c74f84afbe32cf8a1d2cefecda129c0f1441906562dcb8f2b8cb"
 metafile = true
 
 [[files]]
@@ -52,7 +72,7 @@ metafile = true
 
 [[files]]
 file = "mods/cupboard.pw.toml"
-hash = "6779c737552a9095ab04b60cd34f6611477226de79b232ba9a43e36e05d4551b"
+hash = "98f5b324d5cafa4b0dcec5b416b2facc58bea11a21a6ca8d9a61b3984ce01197"
 metafile = true
 
 [[files]]
@@ -63,6 +83,11 @@ metafile = true
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
 hash = "de3c6b57292ba33f190ac6e31b23c3611f3376c5c2a4d5f4e79cd2ccdcb11471"
+metafile = true
+
+[[files]]
+file = "mods/extrapieces.pw.toml"
+hash = "1c71600118b9dccd7491fe00498c97ce1c8b778446cf3baf022e8fe5e567b41f"
 metafile = true
 
 [[files]]
@@ -92,7 +117,7 @@ metafile = true
 
 [[files]]
 file = "mods/farsight-fabric.pw.toml"
-hash = "076da7151413a138985c27be190b31dd05dcaecbbf9bf5fa5ff36d998f8d2db0"
+hash = "4b902c06f64c28c76fe38b329836b57f97188b92390f6a198e8754b2634b509a"
 metafile = true
 
 [[files]]
@@ -123,6 +148,11 @@ metafile = true
 [[files]]
 file = "mods/krypton.pw.toml"
 hash = "c4e45594c8d1ab3dacc3b49142f16fb253178dd31d97cc917bf4a4d54f21e081"
+metafile = true
+
+[[files]]
+file = "mods/ktmod.pw.toml"
+hash = "03668d3e08aef449b2042351a7596b58ce30e278067d9e8d2a81c770a45cc343"
 metafile = true
 
 [[files]]
@@ -171,6 +201,16 @@ hash = "b82e3d69f134d7e925b55579f6bde47a7da1d9e57ad41f5959e27e3fbcb3827d"
 metafile = true
 
 [[files]]
+file = "mods/trekcraft-extended.pw.toml"
+hash = "d26270a2ccecfb721e2e2f65b6a976424eca178154fc506268698897a6c4e1b8"
+metafile = true
+
+[[files]]
+file = "mods/trekcraft-mod.pw.toml"
+hash = "95b2f976df0987404ccb72627554a8b772600856d77377ff7ff519334ddce784"
+metafile = true
+
+[[files]]
 file = "mods/yacl.pw.toml"
 hash = "af96d44665278ac929dc118ad563f7ba4cae803410cfc121583d5faa8b997eae"
 metafile = true
@@ -178,4 +218,9 @@ metafile = true
 [[files]]
 file = "mods/zoomify.pw.toml"
 hash = "3c768bdd4ba36d8e871a740457f4d3deb387cd1fa7cdb4417626cec3e2c72706"
+metafile = true
+
+[[files]]
+file = "resourcepacks/trekcraft-rp.pw.toml"
+hash = "115e56742e06dcaf636b3b789cd9043f1b04e1cf695d98aadab350ebd7ce12e2"
 metafile = true

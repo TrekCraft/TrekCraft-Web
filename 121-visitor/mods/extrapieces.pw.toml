@@ -1,0 +1,7 @@
+name = "ExtraPieces"
+filename = "AstralsExtraPieces-1.21.1-1.0.1.jar"
+
+[download]
+url = "https://trekcraft-mods.s3.us-east-2.amazonaws.com/AstralsExtraPieces-1.21.1-1.0.1.jar"
+hash-format = "sha512"
+hash = "1e1190e9626bb0b729b2263441edb3e1cb3b4f9381dda9d19400ee5df0957eec606c39770a9eff0f2fa2f89b847a44dd7f7e5e90f77ffa1b78c6743ea7bd3a2b"
