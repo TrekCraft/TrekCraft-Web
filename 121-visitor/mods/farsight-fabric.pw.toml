@@ -3,8 +3,8 @@ filename = "farsight-fabric-1.21-4.4.jar"
 side = "both"
 
 [download]
-hash-format = "sha512"
-hash = "90daa28de64680f73e2d3f54d44dbed1572a3d9b0e943faa39eb0491e648578a7fe0bbd69cf242eb7e88cda1b0eb03d1db775033ebc62f95455e70a3fe92e4c5"
+hash-format = "sha256"
+hash = "fe72214fdf07293f11aee2988499541084f33a43950d85d3b174fd43547d7371"
 mode = "metadata:curseforge"
 
 [update]

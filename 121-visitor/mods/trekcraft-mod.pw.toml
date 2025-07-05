@@ -1,7 +1,7 @@
-name = "TrekCraft_Mod"
-filename = "trekcraft-fabric-1.21.1-6.1.2.jar"
+name = "trekcraft-mod"
+filename = "trekcraft-fabric-1.21.1-6.1.3.jar"
 
 [download]
-url = "https://trekcraft-mods.s3.us-east-2.amazonaws.com/trekcraft-fabric-1.21.1-6.1.2.jar"
-hash-format = "sha512"
-hash = "c901cf42fb0d643c27078b0415a2d3a75d4532a0bac66261f6b0541bd3a3270f36cee5e5f862eda46337105df4d0d4c32412b400b4d6e7be300f3d27012b2fb6"
+url = "https://trekcraft-mods.s3.us-east-2.amazonaws.com/trekcraft-fabric-1.21.1-6.1.3.jar"
+hash-format = "sha256"
+hash = "7cb46a0b8e9bbf0789412de3bcb9ed12b34f0cead10c0262ca6b76d70fc0a09f"

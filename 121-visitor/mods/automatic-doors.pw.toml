@@ -1,13 +1,13 @@
 name = "Automatic Doors"
-filename = "automaticdoors-1.21.1-4.8.jar"
+filename = "automaticdoors-1.21.1-4.9.jar"
 side = "server"
 
 [download]
-url = "https://cdn.modrinth.com/data/PGBgocFc/versions/8OJga66z/automaticdoors-1.21.1-4.8.jar"
-hash-format = "sha512"
-hash = "7d5abc04164ec5d204c8e07bf751e9513dca45ac39373bc666f16f37c26a11c04f3e5165c92812c63295a19a8595da46caa0091c25b9ba53d5b2c02300cf7be8"
+url = "https://cdn.modrinth.com/data/PGBgocFc/versions/3W4ZrhhC/automaticdoors-1.21.1-4.9.jar"
+hash-format = "sha256"
+hash = "62f0d5181ffbd569540d08752c5521782e1041d4b11498246e5904591e6929a1"
 
 [update]
 [update.modrinth]
 mod-id = "PGBgocFc"
-version = "8OJga66z"
+version = "3W4ZrhhC"

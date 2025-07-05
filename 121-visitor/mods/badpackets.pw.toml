@@ -1,13 +1,13 @@
 name = "bad packets"
-filename = "badpackets-fabric-0.8.1.jar"
+filename = "badpackets-fabric-0.8.2.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/ftdbN0KK/versions/ac4a1Xj7/badpackets-fabric-0.8.1.jar"
-hash-format = "sha512"
-hash = "5ecebd0840c50ea876d5172d916a3621b11907f39128b6e787152cc69b2af530f95dc7bff577b057db3a54044b0a5c90d6801720d1176a985822fa3a886fa11f"
+url = "https://cdn.modrinth.com/data/ftdbN0KK/versions/hjhT2sMz/badpackets-fabric-0.8.2.jar"
+hash-format = "sha256"
+hash = "55ea0b01c54ad4fd769963649beb20a1971a6c820c9a258acdf43ca353d904d8"
 
 [update]
 [update.modrinth]
 mod-id = "ftdbN0KK"
-version = "ac4a1Xj7"
+version = "hjhT2sMz"

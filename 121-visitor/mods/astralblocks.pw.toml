@@ -3,5 +3,5 @@ filename = "AstralsExtraBlocks-1.21.1-1.0.0.jar"
 
 [download]
 url = "https://trekcraft-mods.s3.us-east-2.amazonaws.com/AstralsExtraBlocks-1.21.1-1.0.0.jar"
-hash-format = "sha512"
-hash = "c62b989aee51437f17562c9c1839c3ae5c48578965a2b59f6254252071755795d21f217b243b846fa20be0f533f76c047cc9bac73b29d0ee6858029f2e3f0427"
+hash-format = "sha256"
+hash = "f84c51a89918793067e0ffb3f9964232d6c88b378c6c308fd887edf66c1d3d4d"
