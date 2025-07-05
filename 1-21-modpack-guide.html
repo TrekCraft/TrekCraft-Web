@@ -72,7 +72,7 @@
 			<div class="wrap">
 				<div class="scroll-top"><a id="scroll-top" href=""><span class="hop">screen</span> top</a></div>
 				<div class="left-frame-top">
-					<div class="panel-1"><a href="https://home.trekcraft.org">HOME</a></div>
+					<div class="panel-1"><a href="index.html">HOME</a></div>
 					<div class="panel-2"><a href="dynmap.html">LIVE MAP</a></div>
 				</div>
 				<div class="right-frame-top">
@@ -84,7 +84,7 @@
 							</div>
 						</div>
 						<nav> 
-							<a href="https://home.trekcraft.org" id="b-one" class="go-away">HOME</a>
+							<a href="index.html" id="b-one" class="go-away">HOME</a>
 							<a href="https://discord.gg/SMwzupB7pv" id="b-four">DISCORD</a>
 							<a href="https://www.youtube.com/channel/UC7ifNIieMiX2DsllFIFsnBQ" id="b-five">YOUTUBE</a>
 							<a href="aboutus.html" id="b-six">ABOUT US</a>
@@ -135,9 +135,10 @@
 						
 						<h3 class="go-almond-creme">Versions</h3>
 						<p>Minecraft Java Edition<span class="go-gold"> 1.21.1</span></p>
-						<p>Fabric Loader<span class="go-gold"> 0.16.9</span></p>
+						<p>Fabric Loader<span class="go-gold"> 0.16.14</span></p>
+						<p>Pack Version<span class="go-gold"> v1.1 (<a href="logs/log_5.html" style="color: #ff8800;">QOL Update</a>)</span></p>
 						<div class="buttons">
-							<a href="https://trekcraft-mods.s3.us-east-2.amazonaws.com/TrekCraft+2.0+Visitor+Pack+%5Bv1.0%5D.zip" class="green">Download Pack</a>
+							<a href="https://trekcraft-mods.s3.us-east-2.amazonaws.com/TrekCraft+2.0+Visitor+Pack+%5Bv1.1%5D.zip" class="green">Download Pack</a>
 						</div>
 						
 						<p>The TrekCraft modpack comes with everything you need to explore and enjoy visiting the TrekCraft server. The pack is also fully compatible with the Axiom Editor which is recommended for players who want to try creating their own sci-fi megabuilds. Axiom, and other helpful mods are linked in the Optional Mod section below.</p>
@@ -151,43 +152,47 @@
 						
 						<h2 class="go-almond-creme">Installation Instructions</h2>
 						
-						<h3 class="go-butterscotch">Step 1: Install Prism [Optional, but STRONGLY recommended]</h3>
-<p><em>Prism is our recommended, and only supported launcher for TrekCraft 2.0. This is for a few reasons, but is mainly because other launchers do not offer all of the tools needed to run our pack in the best way possible.</em></p>
+						<h3 class="go-butterscotch">Step 1: Install Prism Launcher</h3>
+<p><em>Prism is our recommended launcher for TrekCraft. It makes installing and updating modpacks much easier than doing it manually.</em></p>
 <ul>
   <li>Download Prism <a href="https://prismlauncher.org/download/windows/">here</a> for your system</li>
-  <li>Follow the on-screen setup guide
-  <li>Prism has great help guides for setup, and moving from other launchers <a href="https://prismlauncher.org/wiki/getting-started/">here</a></li>
-  </li>
+  <li>Run the installer and follow the on-screen setup guide</li>
+  <li>Need help? Prism has great setup guides <a href="https://prismlauncher.org/wiki/getting-started/">here</a></li>
 </ul>
-<p class="go-red">❗If you decide to skip this step you'll be on your own for setting up, and maintaining your pack❗</p>
+<p class="go-red">❗Using a different launcher? You can still install TrekCraft, but we can only provide limited support❗</p>
 
-<h3 class="go-butterscotch">Step 2: Download and install the TrekCraft Modpack</h3>
-<p><em>Scroll to the section above for a link to download the pack!</em></p>
+<h3 class="go-butterscotch">Step 2: Install the TrekCraft Modpack</h3>
+<p><em>Download the pack using the green button above, then follow these steps:</em></p>
 <ul>
-  <li>Once you've downloaded the pack, you can simply drag &amp; drop the .ZIP on-top of Prism and it should automatically import your instance.
-      <li>If this fails, you can try adding it manually by opening Prism &gt; Add Instance &gt; Import from Zip &gt; Select the downloaded .ZIP &gt; Import</li>
+  <li><strong>Easy method:</strong> Drag and drop the downloaded .ZIP file onto the Prism launcher window</li>
+  <li><strong>Manual method:</strong> In Prism, click "Add Instance" → "Import from Zip" → Select your downloaded file → "Import"</li>
 </ul>
 
-<h3 class="go-butterscotch">Step 3: Setup your Instance</h3>
+<h3 class="go-butterscotch">Step 3: Configure Your Instance</h3>
 <ul>
-  <li>Right click on the newly added instance &gt; Edit &gt; Settings
-      <li>Check <code>Java Installation</code>, then click <code>Auto-detect</code> and select Java 21. You can download Java directly in Prism from this same menu if you don't already have it installed.</li>
-      <li>Check <code>Memory</code> and set the maximum to between 6000mb and 10000mb depending on your system.</li>
+  <li>Right-click on the TrekCraft instance → "Edit" → "Settings"</li>
+  <li><strong>Java:</strong> Click "Auto-detect" and select Java 21 (Prism can download it for you if needed)</li>
+  <li><strong>Memory:</strong> Set maximum RAM to 6000-10000MB (depending on your computer)</li>
 </ul>
-<p>Now you can click <code>Launch</code> and the game should begin to boot!</p>
+<p>Click "Launch" to start the game!</p>
 
-<h3 class="go-butterscotch">Step 4: First-Time Running the Game</h3>
-<p><em>Normally the game should boot up right away, and you'll see the TrekCraft menu screen. If your game crashes review the common fixes below. Otherwise you can skip to Step 5.</em></p>
+<h3 class="go-butterscotch">Step 4: First Launch</h3>
+<p><em>The game should start normally and show the TrekCraft menu. If you encounter issues, try these common fixes:</em></p>
 <ul>
-  <li>If your game fails to open due to <code>Code -1</code> or <code>Code 0</code> this is usually because Java 21 is not enabled. Double check you selected the proper Java in Step 2 and then re-try.</li>
-  <li>If you get an error with Packwiz like <code>Failed to download mods.toml</code> then there may be a server issue, or a poor internet connection. Either wait and try again later, or disable Packwiz <a href="https://discord.com/channels/1219499835179274311/1319418291948621946/1319423721760624702">here</a> and manually download the mods.</li>
+  <li><strong>Java Error (Code -1 or 0):</strong> Make sure Java 21 is selected in your instance settings</li>
+  <li><strong>Packwiz Error:</strong> This usually means a poor internet connection. Wait a few minutes and try again, or disable Packwiz temporarily</li>
 </ul>
 
-<h3 class="go-butterscotch">Step 5: Personalize your Client!</h3>
-<p>Out of the box the client is setup to be well optimized for building really big ships in Minecraft, but everyone has their own preferences. Be sure to click around and change your settings to best suit you! Also make sure to <strong>enable the TrekCraft resource pack!</strong> before you hop on server, otherwise things might look strange 😅</p>
+<h3 class="go-butterscotch">Step 5: Final Setup</h3>
+<p>Before joining the server, make sure to:</p>
+<ul>
+  <li><strong>Enable the TrekCraft resource pack</strong> in your resource pack settings</li>
+  <li><strong>Adjust your settings</strong> to your preferences (graphics, controls, etc.)</li>
+</ul>
+<p>The client is optimized for building large ships, but feel free to customize it to your liking!</p>
 
 
-						<h3 class="blink-faster go-mars">NOTE</h3><p>If Packwiz fails to download the full modpack you can download each mod individually from the list below.</p>
+						<h3 class="blink-faster go-mars">Troubleshooting</h3><p>If the automatic download fails, you can download mods individually from the list below.</p>
 
 						<div class="lcars-bar">
 						<div class="lcars-bar-inner"></div>
@@ -198,26 +203,27 @@
 						<div class="buttons">
 							<a href="1-21-modlist.html" class="gold">Full Mod List</a>
 							<a href="1-21-tc-mod-downloads.html" class="magenta">TC Mod Downloads</a>
+							<a href="1-21-modlist.html#optional-mods" class="bluey">Optional mods</a>
 						</div>
 
 						<div class="lcars-bar">
 							<div class="lcars-bar-inner"></div>
 							</div>
 							
-							<h2 class="go-almond-creme">FAQ</h2>
-						<p>Below are some common issues, and compatibility errors that come up when running the TrekCraft Modpack.</p>
+							<h2 class="go-almond-creme">Common Questions</h2>
+						<p>Here are answers to frequently asked questions about the TrekCraft modpack.</p>
 					
-						<h3 class="go-sky">I want to disable a mod, but it keeps turning itself back on!?</h3>
-						<p class="go-violet-creme">This is Packwiz, our pack updater putting the mod back. To fix this go into Prism, right click on the instance, select Edit, go to the Settings tab, and then Custom Commands sub-tab. Un-check the checkbox and this will turn off Packwiz at launch. Re-checking this box will re-enable Packwiz.</p>
+						<h3 class="go-sky">A mod keeps re-enabling itself!</h3>
+						<p class="go-violet-creme">This is Packwiz (our updater) working normally. To disable a mod permanently: Right-click your instance → Edit → Settings → Custom Commands → Uncheck the Packwiz box. Re-check it later to re-enable automatic updates.</p>
 
-						<h3 class="go-sky">Can I install the modpack with another launcher?</h3>
-						<p class="go-violet-creme">Yes you can, but we won't be able to help you if something goes wrong. The 1.21 setup page on our site has a list of each mod along with links to download them. You will also not receive automatic updates or optimizations. It's strongly recommended to use the Prism Launcher for TrekCraft, along with our official mod pack.</p>	
+						<h3 class="go-sky">Can I use a different launcher?</h3>
+						<p class="go-violet-creme">Yes, but we can only provide limited support. You'll need to download mods manually from our mod list, and won't receive automatic updates. We strongly recommend using Prism for the best experience.</p>	
 
-						<h3 class="go-sky">How can I move around the server easier?</h3>
-						<p class="go-violet-creme">In-game you can press "M" by default to open your map. You can also visit map.trekcraft.org for a full live map of the server. /gamemode spectator is also great for flying through the ships with ease. </p>	
+						<h3 class="go-sky">How do I navigate the server?</h3>
+						<p class="go-violet-creme">Press "M" to open your map, or visit map.trekcraft.org for a live map. Use "/gamemode spectator" to fly through ships easily. You can also use our new mod SHAFTT by typing "/transporter" to open a transport menu.</p>	
 
-						<h3 class="go-sky">Everything is really dark and hard to see</h3>
-						<p class="go-violet-creme">Pressing "G" by default will enable gammabright, which we use often for building.</p>	
+						<h3 class="go-sky">Everything is too dark!</h3>
+						<p class="go-violet-creme">Press "G" to enable gammabright for better visibility.</p>	
 
 						<h3 class="go-sky"></h3>
 						<p class="go-violet-creme"></p>	

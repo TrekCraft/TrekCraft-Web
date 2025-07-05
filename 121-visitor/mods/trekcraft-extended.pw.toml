@@ -1,7 +1,7 @@
-name = "TrekCraft_Extended"
-filename = "tc_extended-1.1.0.jar"
+name = "trekcraft-extended"
+filename = "tc_extended-1.2.0.jar"
 
 [download]
-url = "https://trekcraft-mods.s3.us-east-2.amazonaws.com/tc_extended-1.1.0.jar"
-hash-format = "sha512"
-hash = "b667149b3cdb2a6fde4eca20a7d10b9ce44d0dbeb365acb468b0c49b62d48a366258de8d39b2602299f9df9889e6fe9095c5361c9084e870586941337afc9ead"
+url = "https://trekcraft-mods.s3.us-east-2.amazonaws.com/tc_extended-1.2.0.jar"
+hash-format = "sha256"
+hash = "63c5df1b1c430bc4bf6c5bfbfef1ff5c74b119afbe2c5046a163fab1ea3cc1b5"

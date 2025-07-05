@@ -4,8 +4,8 @@ side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/JnrDtPAE/versions/GDRn4kzl/brrp-fabric-1.0.4-1.21.1.jar"
-hash-format = "sha512"
-hash = "0e11be8600ebe486322f441e895f034fa4de3bf2c11b502979abc08cb029018900c65e45d335f9214b3cae8f2dbeb6a995cdd699de499cb98c9908ade612f17f"
+hash-format = "sha256"
+hash = "92eeaa68eb22020a1de1d0cba1e50c4eb7dbb0d31dbdfb98d833923bdee31ecd"
 
 [update]
 [update.modrinth]

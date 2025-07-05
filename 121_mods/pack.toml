@@ -1,12 +1,12 @@
 name = "TrekCraft 2.0"
 author = "TrekCraft"
-version = "Fabric_1.21.1_v1.0.0"
+version = "Fabric_1.21.1_v1.1.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "c530ba3bcaaf5249be7c9c16b555ad0d56b7aafd793c609041d79238cc0f32aa"
+hash = "fa231c6218c2a068690e16c2463ebd1d55bdde0d9f63a36266e65661a5dbacac"
 
 [versions]
 fabric = "0.16.9"

@@ -1,0 +1,12 @@
+name = "SHAFTT"
+filename = "shaftt-1.21.1-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://github.com/iPanic/turbolift/releases/download/v1.0.0/shaftt-1.21.1-1.0.0.jar"
+hash-format = "sha256"
+hash = "0000000000000000000000000000000000000000000000000000000000000000"
+
+[update]
+modrinth = "shaftt"
+curseforge = "shaftt" 
