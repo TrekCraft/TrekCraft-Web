@@ -2,13 +2,46 @@
 <html>
 
 <head>
-	<title>TrekCraft</title>
+	<title>TrekCraft - Builder Access</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="format-detection" content="telephone=no">
 	<meta name="format-detection" content="date=no">
-	<link rel="stylesheet" type="text/css" href="assets/lcars-ultra-classic.css">
-	<link rel="stylesheet" type="text/css" href="assets/lcars-colors.css">
-	<script src="assets/jquery-3.6.3.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../assets/lcars-ultra-classic.css">
+	<link rel="stylesheet" type="text/css" href="../assets/lcars-colors.css">
+	<script src="../assets/jquery-3.6.3.min.js"></script>
+	<style>
+		.login-form {
+			max-width: 400px;
+			margin: 0 auto;
+			padding: 20px;
+		}
+		.login-form input[type="password"] {
+			width: 100%;
+			padding: 10px;
+			margin: 10px 0;
+			border: 2px solid #ff9c00;
+			background: #000;
+			color: #fff;
+			font-family: 'Antonio', sans-serif;
+		}
+		.login-form button {
+			background: #ff9c00;
+			color: #000;
+			border: none;
+			padding: 10px 20px;
+			cursor: pointer;
+			font-family: 'Antonio', sans-serif;
+			font-weight: bold;
+		}
+		.login-form button:hover {
+			background: #ffb340;
+		}
+		.error-message {
+			color: #ff4444;
+			margin: 10px 0;
+			display: none;
+		}
+	</style>
 </head>
 
 <body>
@@ -72,8 +105,8 @@
 			<div class="wrap">
 				<div class="scroll-top"><a id="scroll-top" href=""><span class="hop">screen</span> top</a></div>
 				<div class="left-frame-top">
-					<div class="panel-1"><a href="index.html">HOME</a></div>
-					<div class="panel-2"><a href="dynmap.html">LIVE MAP</a></div>
+					<div class="panel-1"><a href="../index.html">HOME</a></div>
+					<div class="panel-2"><a href="../dynmap.html">LIVE MAP</a></div>
 				</div>
 				<div class="right-frame-top">
 					<div class="banner"> TCARS &#149; <span class="blink">Online</span> </div>
@@ -84,11 +117,11 @@
 							</div>
 						</div>
 						<nav> 
-							<a href="index.html" id="b-one" class="go-away">HOME</a>
+							<a href="../index.html" id="b-one" class="go-away">HOME</a>
 							<a href="https://discord.gg/SMwzupB7pv" id="b-four">DISCORD</a>
 							<a href="https://www.youtube.com/channel/UC7ifNIieMiX2DsllFIFsnBQ" id="b-five">YOUTUBE</a>
-							<a href="aboutus.html" id="b-six">ABOUT US</a>
-							<a href="server-guide.html" id="b-three">MODPACK INSTALL</a>
+							<a href="../aboutus.html" id="b-six">ABOUT US</a>
+							<a href="../server-guide.html" id="b-three">MODPACK INSTALL</a>
 						</nav>
 					</div>
 					<div class="bar-panel first-bar-panel">
@@ -127,38 +160,34 @@
 
 						<!-- Start your content here. -->
 						
-						<h2>Installing the TrekCraft Modpack</h2>
-						<p>Chose your version below. The current version is what you'll want to visit the TrekCraft server. Older versions are available as well but are not eligible for any support.</p>
-						<div class="lcars-bar">
-						<div class="lcars-bar-inner"></div>
-						</div>
-						
-						
-						<h3 class="go-butterscotch">Current Version</h3>
-						<p>Minecraft Java Edition:<span class="go-gold"> Fabric 1.21.1</span></p>
-						<div class="buttons">
-							<a href="1-21-modpack-guide.html" class="green">Modpack Download</a>
-							<a href="1-21-license.html" class="ice">License</a>
+						<div class="go-center">
+						<h2>Builder Access Portal</h2>
 						</div>
 
-						<div class="lcars-bar">
-						<div class="lcars-bar-inner"></div>
+						<div class="go-left">
+						<div class="lcars-text-bar">
+						<span>Authentication Required</span>
 						</div>
 						
-						<h3 class="go-butterscotch">Older Versions</h3>
-						<p>Minecraft Java Edition:<span class="go-gold"> Forge 1.18.2</span></p>
-						<div class="buttons">
-							<a href="1-18-modpack-guide.html" class="gray">Modpack Download</a>
-							<a href="1-18-license.html" class="violet-creme">License</a>
+						<p>This area contains builder-specific resources, and detailed guides for TrekCraft team.</p>
+						
+						<div class="login-form">
+							<form id="loginForm">
+								<label for="password">Access Code:</label>
+								<input type="password" id="password" name="password" placeholder="Enter builder password">
+								<button type="submit">AUTHENTICATE</button>
+								<div class="error-message" id="errorMessage">Invalid access code. Please try again.</div>
+							</form>
 						</div>
-					
+						
+						<p class="go-red">⚠️ Access to this area is restricted to authorized TrekCraft builders and developers only.</p>
 						
 						<!-- End content area. -->
 
 						<footer>
 							<div class="footer-inside">
 								<div class="footer-text">
-									<p>Copyright &#169; 2024 TrekCraft.</p>
+									<p>Copyright &#169; 2025 TrekCraft.</p>
 									<p>LCARS Inspired Website Template by Jim Robertus <a href="https://www.thelcars.com">www.TheLCARS.com</a>.</p>
 									<p>TrekCraft is not affiliated, sponsored, or endorsed by CBS Studios Inc. Star Trek and it's associated marks are the sole property of CBS Studios Inc.</p>
 								</div>
@@ -170,7 +199,38 @@
 			</div>
 		</section>
 	</div>
-	<script type="text/javascript" src="assets/lcars.js"></script>
+	<script type="text/javascript" src="../assets/lcars.js"></script>
+	<script>
+		
+		const PASSWORD_HASH = '5290289c4aad8e09b008d42672ac66cb044dea324317efe88bc1d3d41f4e2791';
+		
+		
+		async function sha256(message) {
+			const msgBuffer = new TextEncoder().encode(message);
+			const hashBuffer = await crypto.subtle.digest('SHA-256', msgBuffer);
+			const hashArray = Array.from(new Uint8Array(hashBuffer));
+			const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+			return hashHex;
+		}
+		
+		document.getElementById('loginForm').addEventListener('submit', async function(e) {
+			e.preventDefault();
+			const password = document.getElementById('password').value;
+			const errorMessage = document.getElementById('errorMessage');
+			
+			// Hash the input password and compare
+			const inputHash = await sha256(password);
+			
+			if (inputHash === PASSWORD_HASH) {
+				// Store authentication in sessionStorage
+				sessionStorage.setItem('builderAuthenticated', 'true');
+				window.location.href = 'index.html';
+			} else {
+				errorMessage.style.display = 'block';
+				document.getElementById('password').value = '';
+			}
+		});
+	</script>
 </body>
 
-</html>
+</html> 

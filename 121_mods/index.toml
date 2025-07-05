@@ -261,6 +261,11 @@ hash = "3c768bdd4ba36d8e871a740457f4d3deb387cd1fa7cdb4417626cec3e2c72706"
 metafile = true
 
 [[files]]
+file = "mods/shaftt.pw.toml"
+hash = "0000000000000000000000000000000000000000000000000000000000000000"
+metafile = true
+
+[[files]]
 file = "resourcepacks/trekcraft-rp.pw.toml"
 hash = "b152333d8c0e3ecb5fdbbbd3413c302e05c1e0428507422dfe7ba55a3dfee8a7"
 metafile = true

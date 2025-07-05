@@ -1,6 +1,6 @@
 name = "TrekCraft 2.0"
 author = "TrekCraft"
-version = "Fabric_1.21.1_v1.0.0"
+version = "Fabric_1.21.1_v1.1.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
