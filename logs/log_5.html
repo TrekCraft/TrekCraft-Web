@@ -8,6 +8,53 @@
 	<meta name="format-detection" content="date=no">
 	<link rel="stylesheet" type="text/css" href="../assets/lcars-ultra-classic.css">
 	<link rel="stylesheet" type="text/css" href="../assets/lcars-colors.css">
+	<style>
+		h3 {
+			color: #ff9900;
+		}
+		
+		/* Drawer list styles */
+		.drawer-list {
+			margin: 20px 0;
+		}
+		
+		.drawer-header {
+			background-color: #c8f;
+			color: #000;
+			padding: 10px;
+			cursor: pointer;
+			font-weight: bold;
+			border: none;
+			width: 100%;
+			text-align: left;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+		
+		.drawer-header:hover {
+			background-color: #dbf;
+		}
+		
+		.drawer-content {
+			display: none;
+			border: 1px solid #c8f;
+			border-top: none;
+		}
+		
+		.drawer-content.active {
+			display: block;
+		}
+		
+		.drawer-toggle {
+			font-size: 1.2em;
+			transition: transform 0.3s ease;
+		}
+		
+		.drawer-toggle.rotated {
+			transform: rotate(90deg);
+		}
+	</style>
 	<script src="../assets/jquery-3.6.3.min.js"></script>
 </head>
 
@@ -137,8 +184,8 @@
 						<span>Major New Features</span>
 						</div>
 						
-						<h3>SHAFTT Mod - Functional Star Trek Technology</h3>
-						<p>We're excited to announce the addition of the SHAFTT mod, bringing authentic Star Trek technology to TrekCraft! This revolutionary mod adds:</p>
+						<h3>S.H.A.F.T.T. Mod</h3>
+						<p>We're excited to announce the addition of the SHAFTT mod  (Simulated holodecks and functional Transporters & Turbolifts), bringing authentic Star Trek technology to TrekCraft! This revolutionary mod adds:</p>
 						<ul class="lcars-list">
 							<li><strong>Functional Turbolifts</strong> - Transport between decks with authentic Star Trek turbolift systems</li>
 							<li><strong>Holodecks</strong> - Create immersive virtual environments for training and recreation</li>
@@ -168,18 +215,76 @@
 						<ul class="lcars-list">
 							<li>Better performance and stability</li>
 							<li>Latest security patches and bug fixes</li>
-							<li>Improved compatibility with the new SHAFTT mod</li>
+						</ul>
+						
+						<h3>Resource Pack Updates</h3>
+						<p>The TrekCraft Resource Pack has been updated with important fixes and improvements:</p>
+						<ul class="lcars-list">
+							<li>Fixed problematic model files that were causing rendering issues</li>
+							<li>New Teal color theme</li>
 						</ul>
 						
 						<div class="lcars-text-bar">
 						<span>Getting the Update</span>
 						</div>
 						
+						<h3>Automatic Updates (Recommended)</h3>
+						<p>Visitors using our Prism/MultiMC modpack should see the update download and install automatically when they boot the game. The launcher will handle all the necessary file updates for you.</p>
+						
+						<h3>DIY Update Guide</h3>
+						<p>For visitors who prefer to manage their own updates, here are the specific mods that have been updated:</p>
+						
+						<div class="drawer-list">
+							<button class="drawer-header" onclick="toggleDrawer('updated-mods-drawer')">
+								<span>Updated Mods List</span>
+								<span class="drawer-toggle">▶</span>
+							</button>
+							<div class="drawer-content" id="updated-mods-drawer">
+								<h3>TrekCraft Mods:</h3>
+								<ul class="lcars-list">
+									<li><a href="../1-21-tc-mod-downloads.html">TrekCraft Mod</a> - Latest version (fixes model rendering and removes unused textures)</li>
+									<li><a href="../1-21-tc-mod-downloads.html">TrekCraft Extended</a> - Latest version (includes new Interior Wall variants)</li>
+									<li><a href="../1-21-tc-mod-downloads.html">SHAFTT Mod</a> - New addition (turbolifts, holodecks, transporters)</li>
+								</ul>
+								
+								<h3>Third-Party Mods</h3>
+								<ul class="lcars-list">
+									<li><a href="https://modrinth.com/mod/zFiY2Go0">Blockus</a> - Updated version</li>
+									<li><a href="https://modrinth.com/mod/e0M1UDsY">Collective</a> - Updated version</li>
+									<li><a href="https://modrinth.com/mod/xv94TkTM">Controlling</a> - Updated version</li>
+									<li><a href="https://modrinth.com/mod/LQ3K71Q1">Dynamic FPS</a> - Updated version</li>
+									<li><a href="https://modrinth.com/mod/tb7kCxSW">Extended Block Shapes</a> - Updated version</li>
+									<li><a href="https://modrinth.com/mod/qAQHIBF8">Extended Block Shapes (Blockus)</a> - Updated version</li>
+									<li><a href="https://modrinth.com/mod/P7dR8mSH">Fabric API</a> - Updated version</li>
+									<li><a href="https://modrinth.com/mod/Ha28R6CL">Fabric Language Kotlin</a> - Updated version</li>
+									<li><a href="https://modrinth.com/mod/aEK1KhsC">Full Brightness Toggle</a> - Updated version</li>
+									<li><a href="https://modrinth.com/mod/YL57xq9U">Iris</a> - Updated version</li>
+									<li><a href="https://modrinth.com/mod/lfHFW1mp">JourneyMap</a> - Updated version</li>
+									<li><a href="https://modrinth.com/mod/gvQqBUqZ">Lithium</a> - Updated version</li>
+									<li><a href="https://modrinth.com/mod/eXts2L7r">Placeholder API</a> - Updated version</li>
+									<li><a href="https://modrinth.com/mod/LqywxrVu">Realms Button Remover</a> - Updated version</li>
+									<li><a href="https://modrinth.com/mod/AANobbMI">Sodium</a> - Updated version</li>
+									<li><a href="https://modrinth.com/mod/1eAoo2KR">YetAnotherConfigLib</a> - Updated version</li>
+									<li><a href="https://modrinth.com/mod/w7ThoJFB">Zoomify</a> - Updated version</li>
+									<li><a href="https://www.curseforge.com/projects/326652">Cupboard</a> - Updated version</li>
+								</ul>
+								
+								<h3>Resource Pack:</h3>
+								<ul class="lcars-list">
+									<li><a href="../1-21-tc-mod-downloads.html">TrekCraft Resource Pack</a> - Latest version (fixes model files and updates to Teal theme)</li>
+								</ul>
+							</div>
+						</div>
+						
+						<div class="lcars-text-bar">
+							<span>New to TrekCraft?</span>
+							</div>
+							<p><em>New to TrekCraft? Use the 1.21.1 Modpack Guide for step-by-step installation instructions.</em></p>
 						<div class="buttons">
 							<a href="../1-21-modpack-guide.html" class="blue">1.21.1 Modpack Guide</a>
 						</div>
 						
-						<p><em>New to TrekCraft? Use the 1.21.1 Modpack Guide for step-by-step installation instructions.</em></p>
+						
 						
 						
 						<!-- End content area. -->
@@ -200,6 +305,21 @@
 		</section>
 	</div>
 	<script type="text/javascript" src="../assets/lcars.js"></script>
+	<script>
+		// Drawer toggle functionality
+		function toggleDrawer(drawerId) {
+			const drawer = document.getElementById(drawerId);
+			const toggle = drawer.previousElementSibling.querySelector('.drawer-toggle');
+			
+			if (drawer.classList.contains('active')) {
+				drawer.classList.remove('active');
+				toggle.classList.remove('rotated');
+			} else {
+				drawer.classList.add('active');
+				toggle.classList.add('rotated');
+			}
+		}
+	</script>
 </body>
 
 </html> 
