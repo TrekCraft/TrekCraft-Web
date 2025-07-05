@@ -1269,8 +1269,6 @@ nav a:hover {
 
 .panel-6	{
 	padding: 230px 10px 15px 0;
-	Padding-top: ;
-	padding-bottom: ;
 	background-color:#ffaa90;
 }
 
@@ -1281,13 +1279,13 @@ nav a:hover {
 }
 
 .panel-8	{
-	Padding-top: 15px;
+	padding-top: 15px;
 	padding-bottom: 110px;
 	background-color: #ffaa90;
 }
 
 .panel-9	{
-	Padding-top: 15px;
+	padding-top: 15px;
 	padding-right: 10px;
 	padding-bottom: 170px;
 	background-color: #d44;
@@ -1296,7 +1294,7 @@ nav a:hover {
 .panel-10 {
 	border-top: 5px solid #000;
 	background-color: #f70;
-	Padding-top: 15px;
+	padding-top: 15px;
 	padding-right: 10px;
 	padding-bottom: 300px;
 }
@@ -2084,4 +2082,31 @@ footer::after {
 	.bar-6 {
 		width: 90px;
 	}
+}
+
+/* Custom button styles for TrekCraft homepage */
+.lcars-button {
+	display: inline-block;
+	padding: 12px 24px;
+	margin: 8px;
+	background-color: #c8f;
+	color: #000;
+	text-decoration: none;
+	border-radius: 8px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	transition: all 0.3s ease;
+	font-size: 1.1rem;
+}
+
+.lcars-button:hover {
+	background-color: #d9f;
+	transform: translateY(-2px);
+	box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.lcars-button:active {
+	transform: translateY(0);
+	box-shadow: 0 2px 4px rgba(0,0,0,0.3);
 }
