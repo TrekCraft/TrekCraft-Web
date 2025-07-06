@@ -1,7 +1,7 @@
 name = "SHAFTT"
-filename = "shaftt-1.0.0.jar"
+filename = "shaftt-1.0.1.jar"
 
 [download]
-url = "https://trekcraft-mods.s3.us-east-2.amazonaws.com/shaftt-1.0.0.jar"
+url = "https://trekcraft-mods.s3.us-east-2.amazonaws.com/shaftt-1.0.1.jar"
 hash-format = "sha256"
-hash = "4f6e94fde7222738453789a41f78e4e0032b05224b6ed1a4c0a23d7dc70350bb"
+hash = "4e97fe9621cef39affb3541dd1afbe1c3f965a6ad76d39b83d8d7a771a877e88"
