@@ -42,7 +42,7 @@ metafile = true
 
 [[files]]
 file = "mods/borderless-fullscreen.pw.toml"
-hash = "a731b9abd86c8651aa571b63b7f31356a75ded9226d14b4f2793de4ca7508fc0"
+hash = "fd31f0aa0f2fbfde0579c9dcddc72d7a64c4561fb327e6dcb890110304e7fefc"
 metafile = true
 
 [[files]]
