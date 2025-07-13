@@ -8,6 +8,49 @@
 	<meta name="format-detection" content="date=no">
 	<link rel="stylesheet" type="text/css" href="assets/lcars-ultra-classic.css">
 	<link rel="stylesheet" type="text/css" href="assets/lcars-colors.css">
+	<style>
+		/* Drawer list styles */
+		.drawer-list {
+			margin: 20px 0;
+		}
+		
+		.drawer-header {
+			background-color: #c8f;
+			color: #000;
+			padding: 10px;
+			cursor: pointer;
+			font-weight: bold;
+			border: none;
+			width: 100%;
+			text-align: left;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+		
+		.drawer-header:hover {
+			background-color: #dbf;
+		}
+		
+		.drawer-content {
+			display: none;
+			border: 1px solid #c8f;
+			border-top: none;
+		}
+		
+		.drawer-content.active {
+			display: block;
+		}
+		
+		.drawer-toggle {
+			font-size: 1.2em;
+			transition: transform 0.3s ease;
+		}
+		
+		.drawer-toggle.rotated {
+			transform: rotate(90deg);
+		}
+	</style>
 	<script src="assets/jquery-3.6.3.min.js"></script>
 </head>
 
@@ -105,8 +148,10 @@
 				<div class="left-frame">
 					<div>
 						<div class="panel-3">03<span class="hop">-111968</span></div>
-						<div class="panel-4"><a href="builders/login.html">04<span class="hop">-TEAM ACCESS</span></a></div>
-						<div class="panel-5">05<span class="hop">-1701D</span></div>
+						<div class="sidebar-buttons">
+							<a href="rules.html">RULES</a>
+							<a href="builders/login.html">TEAM ACCESS</a>
+						</div>
 						<div class="panel-6">06<span class="hop">-071984</span></div>
 						<div class="panel-7">07<span class="hop">-081940</span></div>
 						<div class="panel-8">08<span class="hop">-47148</span></div>
@@ -142,11 +187,11 @@
 						<div class="buttons jc-center">
 							<a href="#about-program" class="orange">About Program</a>
 							<a href="#who-we-look-for" class="blue">Who We Look For</a>
-							<a href="#building-process" class="green">Building Process</a>
-							<a href="#build-guidelines" class="magenta">Build Guidelines</a>
-							<a href="#build-prompts" class="violet-creme">Build Prompts</a>
-							<a href="#age-consideration" class="almond">Age Consideration</a>
-							<a href="#application-form" class="red">Apply Now</a>
+							<a href="#building-process" class="green">Application Timeline</a>
+							<a href="#your-application" class="magenta">Your Application</a>
+							<a href="#preparation-resources" class="butterscotch">Resources</a>
+							<a href="#what-if-rejected" class="red">What If Declined?</a>
+							<a href="#application-form" class="sunflower">Apply Now</a>
 						</div>
 						</div>
 						
@@ -155,10 +200,7 @@
 						<div class="go-left">
 						<p>TrekCraft is the longest-running sci-fi megabuilding community in Minecraft. We create massive, detailed ships inspired by Star Trek and other sci-fi universes, with builds that take months or even years to complete.</p>
 						
-						<p>Our Builder Program is designed for Minecraft builders who want to contribute to large-scale collaborative projects. We're looking for mature, creative individuals who can work independently while being part of a supportive team environment.</p>
-						
-						<p><strong>Who should apply:</strong> Builders with attention to detail and a passion for sci-fi design. You should be comfortable with long-term projects, open to feedback, and excited to work with our resource pack and modded blocks. We can teach building skills, but we can't teach the right attitude.</p>
-
+						<p>Our Builder Program offers a structured path for talented builders to join our collaborative projects. You'll start with focused trial builds, receive guidance from a dedicated liaison, and gradually take on larger projects as you develop and get to know our team.
                         
 						</div>
 						
@@ -207,111 +249,234 @@
 						
 						<hr style="border: 1px solid #f70; margin: 30px 0;">
 						
-						<h2 class="go-orange" id="building-process">Our Building Process</h2>
+						<h2 class="go-orange" id="building-process">Application Timeline</h2>
 						
 						<div class="go-left">
-						<div class="lcars-text-bar">
-						<span class="go-peach">🚀 Trial Phase: Starter Build Program</span>
-						</div>
-						<p>To ensure new builders start with achievable, focused goals, TrekCraft introduces a Trial Phase — a vital step before full Builder promotion.</p>
+						<p>Here's what to expect from application to becoming a full TrekCraft builder:</p>
 						
-						<h5 class="go-peach">How It Works:</h5>
-						<ol class="lcars-list">
-						<li><strong>Invitation to Trial:</strong> After passing initial application review, applicants are invited to join the Trial Phase</li>
-						<li><strong>Starter Project Assignment:</strong> Builders receive a clear, limited-scope project (single deck, shuttle bay, specialty room)</li>
-						<li><strong>Timeline:</strong> Typically 2–4 weeks with clear deliverables and milestones</li>
-						<li><strong>Mentorship:</strong> Regular progress updates with assigned mentor or builder lead</li>
-						<li><strong>Final Review:</strong> Completed project is reviewed using our evaluation rubric</li>
-						<li><strong>Promotion:</strong> Successful trial completion leads to full Builder promotion</li>
-						</ol>
+						<div class="lcars-text-bar">
+						<span class="go-peach">📋 Step 1: Application Review (1-2 weeks)</span>
+						</div>
+						<p>We review your application build and responses within 1-2 weeks using our evaluation rubric. We're looking for technical skill, creative vision, and alignment with our team values. If your application shows promise, you'll receive the Recruit role in Discord, and access to our Recruit channels.</p>
+						
+						<div class="lcars-text-bar">
+						<span class="go-peach">🚀 Step 2: Trial Phase (4-6 weeks)</span>
+						</div>
+						<p>New builders start by being paired with a liaison—someone you can talk to, ask questions, and get support throughout your trial period. Your liaison will help connect you with other builders to get as much experience as possible working on different aspects of our builds before the end of your trial period.</p>
+
+						<p>Recruits in the trial phase will not be able to start solo-projects until their promotion to full builder. We want to encourage new members on the team to work collaboratively to avoid burnout, and to have more opportunity to work with different members of our build team.</p>
+						
+						<p class="go-magenta"><em>Note: Both application review and trial completion are evaluated using our standardized rubric to ensure fair and consistent assessment.</em></p>
+						
+						<div class="drawer-list">
+							<button class="drawer-header" onclick="toggleDrawer('rubric-drawer')">
+								<span>📊 Evaluation Rubric</span>
+								<span class="drawer-toggle">▶</span>
+							</button>
+							<div class="drawer-content" id="rubric-drawer">
+								<h4 class="go-peach">Scoring System</h4>
+								<p>Each category is scored 0–3:</p>
+								<ul class="lcars-list">
+								<li><span class="go-violet">0 – Missing or inadequate</span></li>
+								<li><span class="go-violet">1 – Needs improvement</span></li>
+								<li><span class="go-violet">2 – Solid effort / acceptable</span></li>
+								<li><span class="go-violet">3 – Excellent / exceeds expectations</span></li>
+								</ul>
+								
+								<h4 class="go-peach">Evaluation Categories</h4>
+								<ul class="lcars-list">
+								<li><span class="go-violet">Use of Modded Assets:</span> TrekCraft resource pack and modded blocks used effectively</li>
+								<li><span class="go-violet">Scale & Proportions:</span> Modern standards (3–5 block hallways, 3–4 blocks between decks)</li>
+								<li><span class="go-violet">Exterior Design:</span> Hull shape, nacelles, and Star Trek design language</li>
+								<li><span class="go-violet">Interior Layout:</span> Logical deck planning, room distribution, access flow</li>
+								<li><span class="go-violet">Interior Detailing:</span> Consistent styles, greebling, purposeful decoration</li>
+								<li><span class="go-violet">Key Areas Present:</span> Bridge, engineering, shuttlebay, quarters, etc.</li>
+								<li><span class="go-violet">Cohesion & Style:</span> Consistent style fitting current builds (Vesta, Refit, Voyager)</li>
+								<li><span class="go-violet">Originality & Creativity:</span> New ideas, clever solutions, novel block usage</li>
+								<li><span class="go-violet">Effort & Completion:</span> Polish, care, beyond half-finished shell</li>
+								<li><span class="go-violet">Growth Potential:</span> Clear potential to grow with guidance and collaboration</li>
+								</ul>
+								
+								<p class="go-magenta"><em>Total possible score: 30 points. We're looking for potential, attitude, and team compatibility — not perfection!</em></p>
+								<p class="go-magenta"><em>Pass threshold: 20 points or higher will be considered a "Pass" for application and trial review.</em></p>
+							</div>
+						</div>
+						
+						<div class="lcars-text-bar">
+						<span class="go-peach">✅ Step 3: Full Builder Promotion</span>
+						</div>
+						<p>Successful trial completion leads to full Builder status. You'll gain:</p>
+						<ul class="lcars-list">
+						<li><span class="go-violet">Axiom Training:</span> Access to our Axiom mod training and resources (we encourage all applicants to practice with Axiom in singleplayer first)</li>
+						<li><span class="go-violet">Builder Access:</span> Full access to our builders-only Discord channels and your own plot on the server</li>
+						<li><span class="go-violet">Project Freedom:</span> Ability to start your own builds (though we strongly recommend avoiding solo projects for at least 3-6 months)</li>
+						<li><span class="go-violet">Liaison Role:</span> Opportunity to become a liaison for future trial builders as you gain experience</li>
+						</ul>
+						
+						<p><em>Note: The timeline can vary based on project complexity and team availability. We'll keep you updated throughout the process.</em></p>
 						</div>
 						
 						<hr style="border: 1px solid #f70; margin: 30px 0;">
 						
-						<h2 class="go-orange" id="build-guidelines">Build Guidelines</h2>
+						<h2 class="go-orange" id="your-application">Your Application</h2>
 						
 						<div class="go-left">
-						<p>We expect your submission to represent your best possible work, regardless of experience level. Focus on showing us your passion, creativity, and potential.</p>
+						<p>Ready to apply? Here's everything you need to know about submitting your application:</p>
 						
-						<div class="lcars-text-bar">
-						<span class="go-peach">Key Build Expectations:</span>
+						<p>We want to see your best effort, regardless of experience level. Don't worry about being perfect — we're looking for passion, creativity, and a solid attempt that shows you understand our requirements.</p>
+						
+						<p class="go-magenta"><em>Note: Your application must be a solo project. We do not accept group applications, and any application that appears to have been assisted by another builder will be declined.</em></p>
 						</div>
+						
+						<hr style="border: 1px solid #f70; margin: 30px 0;">
+						
+						<h3 class="go-peach" id="application-plot">Application Plot System</h3>
+
+<div class="go-left">
+	
+<p>All applicants will use our official application world/blueprint containing 9 themed plots, each 50x50 blocks. You must build a minimum of 6 plots, and you can choose any combination of the 9 available themes.</p>
+
+<img src="images\recruit_plot_topdown.png" class="pics" style="width:50%;">
+
+<div class="lcars-text-bar">
+	<span class="go-peach">Build Requirements & Guidelines:</span>
+	</div>
+	
+	<ul class="lcars-list">
+	<li><span class="go-violet">Slice of Life:</span> Each plot should feel like a complete slice of a full build. For example, a "Living" plot might include a corridor with entries to quarters, a family suite, and a tailor — showing variety within the theme.</li>
+							<li><span class="go-violet">Modern Design:</span> Use modern layout practices (hallways 3–5 blocks wide, decks 3–4 blocks of air between them) and our custom blocks (not just vanilla)</li>
+						<li><span class="go-violet">Space Usage:</span> Plots don't need to be "full" (using every inch of block space), but should make good use of the area to showcase your abilities</li>
+						<li><span class="go-violet">No Height Limit:</span> There is no vertical height limit, as long as the entire plot can be captured in a few pictures</li>
+						<li><span class="go-violet">Photos Required:</span> Submit clear photos/screenshots of your finished plots as part of your application</li>
+	</ul>
+	<span class="go-center"><h3 class="go-mars"> Important!</h3>
+	<p class="go-mars">
+		All applicants must build using our current 
+		<a href="modpack-guides/1-21-modpack-guide.html" class="go-mars">1.21.1 modpack</a>.
+	</p>
+	</span>
+
+<div class="lcars-text-bar">
+<span class="go-peach">Available Plot Themes</span>
+</div>
+
+<p>We've picked out 9 themes that are essential to any project. You'll pick at least 6 of these themes to represent on your application. While the themes are fixed, your interpretation is not. Feel free to ignore our example room ideas and come up with whatever you think fits best.</p>
+
+
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin: 20px 0;">
+	<div>
+		<h3 style="color: #3D4B45;">Recreation</h3>
+		<p>Holodeck simulations, lounges, arboretums, sports facilities, or entertainment areas.</p>
+		
+		<h3 style="color: #AE9A5A;">Engineering</h3>
+		<p>Main Engineering, Jefferies Tubes, EPS conduits, power distribution, or systems.</p>
+		
+		<h3 style="color: #903D3D;">Tactical</h3>
+		<p>Armories, security offices, training simulators, or defensive systems.</p>
+		
+		<h3 style="color: #1E736A;">Science</h3>
+		<p>Labs, research bays, astrometrics, exobiology, or experimental facilities.</p>
+		
+		<h3 style="color: #57867E;">Medical</h3>
+		<p>Sickbay, medical labs, quarantine wards, or treatment facilities.</p>
+	</div>
+	
+	<div>
+		<h3 style="color: #926D45;">Living</h3>
+		<p>Crew quarters, officer suites, mess halls, or communal living spaces.</p>
+
+		<h3 style="color: #574869;">Operations</h3>
+		<p>Cargo bays, transporter rooms, computer cores, or logistical facilities.</p>
+
+		<h3 style="color: #A07EB2;">"Hero" Area</h3>
+		<p>Large, dramatic locations like bridges, shuttlebays, or stellar cartography.</p>
+
+		<h3 style="color: #C9CCCF;">Wildcard</h3>
+		<p>No theme restriction — let your creativity run wild!</p>
+	</div>
+</div>
+
+<p class="go-center go-orange">Want to see an example of completed plots? Use /transporter on server to check out the Recruit Yard!</p>
+
+<div class="lcars-text-bar">
+<span class="go-peach">Download Application Plots</span>
+</div>
+
+<div class="go-center">
+<div class="buttons jc-center">
+	<a href="#" class="orange">World File</a>
+	<a href="#" class="blue">Axiom Blueprint</a>
+</div>
+</div>
+</div>
+
+						<hr style="border: 1px solid #f70; margin: 30px 0;">
+						
+						<h3 class="go-peach" id="preparation-resources">Preparation & Resources</h3>
+						
+						<div class="go-left">
+						<p>Take advantage of all available resources to create your best application:</p>
 						<ul class="lcars-list">
-						<li>Use our resource pack and modded blocks thoughtfully</li>
-						<li>Modern build practices: Hallways 3–5 blocks wide, decks 3–4 blocks of air between them</li>
-						<li>Reference our recent builds for stylistic guidance: Enterprise Refit, Vesta, Voyager</li>
-						<li>Stay within a manageable size (ideal for a solo project)</li>
-						<li>Demonstrate clear deck planning, layout flow, interior design, and hull work</li>
-						<li>Include essential areas: Bridge, Main Engineering, Shuttlebay, Crew Spaces</li>
+						<li>Review our evaluation <a href="#rubric-drawer">rubric</a> to understand what we're looking for</li>
+						<li>Explore our current builds on the server for ideas and reference</li>
+						<li>Use our marker blocks to help you layout ideas and plan</li>
+						<li>Join our Discord to ask questions and chat with our team</li>
+						<li>Study our resource pack and modded blocks to understand the tools available</li>
+						<li>Take your time and put in the effort — quality over speed</li>
 						</ul>
 						</div>
 						
 						<hr style="border: 1px solid #f70; margin: 30px 0;">
 						
-						<h2 class="go-orange" id="build-prompts">Build Prompts</h2>
+						<h3 class="go-peach" id="age-consideration">Age Consideration</h3>
 						
 						<div class="go-left">
-						<p>Choose one of the following prompts for your application build:</p>
-						
-						<div class="lcars-text-bar">
-						<span class="go-peach">1. USS Ardent – Federation Tactical Scout</span>
-						</div>
-						<ul class="lcars-list">
-						<li><strong class="go-violet">Size:</strong> 150–180m</li>
-						<li><strong class="go-violet">Purpose:</strong> Tactical escort for deep space missions and patrol routes</li>
-						<li><strong class="go-violet">Required Areas:</strong> Bridge, engineering, armory or security checkpoint, shuttlebay, quarters</li>
-						<li><strong class="go-violet">Style:</strong> Aggressive silhouette, practical layout, tie design language to the Vesta-era aesthetic</li>
-						</ul>
-						
-						<div class="lcars-text-bar">
-						<span class="go-peach">2. Klingon Siege Corvette</span>
-						</div>
-						<ul class="lcars-list">
-						<li><strong class="go-violet">Size:</strong> 120–150m</li>
-						<li><strong class="go-violet">Purpose:</strong> Small, heavily armed forward assault ship for planetary bombardment</li>
-						<li><strong class="go-violet">Required Areas:</strong> Bridge, weapons control, barracks, small hangar, engine core</li>
-						<li><strong class="go-violet">Style:</strong> Harsh lighting, angular layout, minimal ornamentation — brutal and efficient</li>
-						</ul>
-						
-						<div class="lcars-text-bar">
-						<span class="go-peach">3. Romulan Surveillance Frigate</span>
-						</div>
-						<ul class="lcars-list">
-						<li><strong class="go-violet">Size:</strong> 150–200m</li>
-						<li><strong class="go-violet">Purpose:</strong> Long-range stealth ship designed for passive observation and data collection</li>
-						<li><strong class="go-violet">Required Areas:</strong> Cloaking systems hub, command center, labs, crew spaces, escape pod bays</li>
-						<li><strong class="go-violet">Style:</strong> Elegant curves, asymmetry, eerie green hues, sharp interior contrast</li>
-						</ul>
-						
-						<div class="lcars-text-bar">
-						<span class="go-peach">4. Star Wars – New Republic Diplomatic Courier</span>
-						</div>
-						<ul class="lcars-list">
-						<li><strong class="go-violet">Size:</strong> 130–160m</li>
-						<li><strong class="go-violet">Purpose:</strong> Transport vessel for senators, dignitaries, and sensitive cargo</li>
-						<li><strong class="go-violet">Required Areas:</strong> Conference chamber, bridge, living quarters, cargo bay, droid maintenance</li>
-						<li><strong class="go-violet">Style:</strong> Sleek but simple, clean interiors with layered tech panels and spot lighting</li>
-						</ul>
-						
-						<div class="lcars-text-bar">
-						<span class="go-peach">5. General Sci-Fi – Deep Space Science Cruiser</span>
-						</div>
-						<ul class="lcars-list">
-						<li><strong class="go-violet">Size:</strong> 160–200m</li>
-						<li><strong class="go-violet">Purpose:</strong> Multi-mission research platform for interstellar exploration</li>
-						<li><strong class="go-violet">Required Areas:</strong> Science labs, bridge, hydroponics, living quarters, AI core</li>
-						<li><strong class="go-violet">Style:</strong> Futuristic but functional. Creative block usage and thoughtful planning encouraged</li>
-						</ul>
-						
-						<p><em>Note: You're welcome to propose original builds as long as they meet the minimum requirements above.</em></p>
+						<p>To maintain a comfortable space for all of our builders (mostly in their late teens to 30s), we limit applicants to age 16+. Maturity, respect, and communication skills are non-negotiable regardless of age.</p>
 						</div>
 						
 						<hr style="border: 1px solid #f70; margin: 30px 0;">
 						
-						<h2 class="go-orange" id="age-consideration">Age Consideration</h2>
+						<h2 class="go-orange" id="what-if-rejected">What If I'm Declined or Don't Pass Trial?</h2>
 						
 						<div class="go-left">
-						<p>To maintain a comfortable space for our current team (mostly in their late teens to 30s), we limit applicants to age 16+. Maturity, respect, and communication skills are non-negotiable.</p>
+						<p>We understand that being declined can be disappointing, but it's not the end of your TrekCraft journey. Here's what you should know:</p>
+						
+						<div class="lcars-text-bar">
+						<span class="go-peach">Application Decline</span>
+						</div>
+						<p>If your initial application isn't accepted, you'll receive specific feedback about areas for improvement. Common reasons include:</p>
+						<ul class="lcars-list">
+						<li>Plots or application is incomplete, or missing key elements</li>
+						<li>Technical skills need development (block usage, layout planning, etc.)</li>
+						<li>Application responses don't align with our team values</li>
+						<li>Age requirement not met</li>
+						</ul>
+						<p><strong>You can reapply after 3 months</strong> with an improved build and application. Focus on addressing the specific feedback you received, and consider spending more time studying our existing builds and resource pack before reapplying.</p>
+						
+						<div class="lcars-text-bar">
+						<span class="go-peach">Trial Period Challenges</span>
+						</div>
+						<p>If you don't complete the trial period successfully, it's usually due to:</p>
+						<ul class="lcars-list">
+						<li>Inconsistent communication or absent for majority of trial</li>
+						<li>Difficulty adapting to our collaborative workflow</li>
+						<li>Lack of on server work to evaluate</li>
+						<li>Team dynamics or maturity concerns</li>
+						</ul>
+						<p><strong>You can reapply after 6 months</strong> if you feel you've addressed the feedback and are ready to try again. Use this time to practice building, improve your communication skills, and demonstrate your commitment to collaborative work.</p>
+						
+						<div class="lcars-text-bar">
+						<span class="go-peach">Staying Connected</span>
+						</div>
+						<p>Even if you're not ready to join the build team, you're welcome to:</p>
+						<ul class="lcars-list">
+						<li>Join our Discord community as a visitor</li>
+						<li>Participate in community events and discussions</li>
+						<li>Share your builds in our art & related channel</li>
+						<li>Apply again when you feel ready</li>
+						</ul>
+						<p><em>Our goal is to build a strong, collaborative team. Sometimes that means waiting for the right fit or giving applicants time to grow. We also know that this entire process may seem daunting, or even silly. We get it, and we appretiate the time and effort that every application displays - Thank you.</em></p>
 						</div>
 						
 						<hr style="border: 1px solid #f70; margin: 30px 0;">
@@ -321,11 +486,11 @@
 						<div id="application-form" class="go-center">
 						<h2 class="go-orange">Application Form</h2>
 						
-						<p>Please complete your build according to the guidelines above, then submit your application using the form below. Include screenshots or videos of your completed build.</p>
+						<p>Please complete your build according to the guidelines above, then submit your application using the form below. Include screenshots or videos of your completed plots.</p>
 						
 						<div class="go-center">
 						<div class="buttons jc-center">
-							<a href="https://forms.gle/tSnY7BVh27ap9KMs6" class="red" target="_blank">SUBMIT APPLICATION</a>
+							<a href="https://forms.gle/5hpXwRzYEFUgrb1j6" class="red" target="_blank">SUBMIT APPLICATION</a>
 						</div>
 						</div>
 						</div>
@@ -348,6 +513,43 @@
 		</section>
 	</div>
 	<script type="text/javascript" src="assets/lcars.js"></script>
+	<script>
+		// Drawer toggle functionality
+		function toggleDrawer(drawerId) {
+			const drawer = document.getElementById(drawerId);
+			const toggle = drawer.previousElementSibling.querySelector('.drawer-toggle');
+			
+			if (drawer.classList.contains('active')) {
+				drawer.classList.remove('active');
+				toggle.classList.remove('rotated');
+			} else {
+				drawer.classList.add('active');
+				toggle.classList.add('rotated');
+			}
+		}
+
+		// Ensure rubric links open the drawer and scroll to it
+		window.addEventListener('DOMContentLoaded', function() {
+			const rubricLinks = document.querySelectorAll('a[href="#rubric-drawer"]');
+			const rubricDrawer = document.getElementById('rubric-drawer');
+			const rubricHeader = rubricDrawer ? rubricDrawer.previousElementSibling : null;
+			if (rubricLinks && rubricDrawer && rubricHeader) {
+				rubricLinks.forEach(function(link) {
+					link.addEventListener('click', function(e) {
+						e.preventDefault();
+						if (!rubricDrawer.classList.contains('active')) {
+							// Open the drawer
+							rubricHeader.click();
+						}
+						// Scroll to the drawer
+						setTimeout(function() {
+							rubricDrawer.scrollIntoView({behavior: 'smooth', block: 'start'});
+						}, 100);
+					});
+				});
+			}
+		});
+	</script>
 </body>
 
 </html> 
