@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>TrekCraft - Join Our Build Team</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="format-detection" content="date=no">
+	<link rel="stylesheet" type="text/css" href="assets/lcars-ultra-classic.css">
+	<link rel="stylesheet" type="text/css" href="assets/lcars-colors.css">
+	<style>
+		/* Drawer list styles */
+		.drawer-list {
+			margin: 20px 0;
+		}
+		
+		.drawer-header {
+			background-color: #c8f;
+			color: #000;
+			padding: 10px;
+			cursor: pointer;
+			font-weight: bold;
+			border: none;
+			width: 100%;
+			text-align: left;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+		
+		.drawer-header:hover {
+			background-color: #dbf;
+		}
+		
+		.drawer-content {
+			display: none;
+			border: 1px solid #c8f;
+			border-top: none;
+		}
+		
+		.drawer-content.active {
+			display: block;
+		}
+		
+		.drawer-toggle {
+			font-size: 1.2em;
+			transition: transform 0.3s ease;
+		}
+		
+		.drawer-toggle.rotated {
+			transform: rotate(90deg);
+		}
+	</style>
+	<script src="assets/jquery-3.6.3.min.js"></script>
+</head>
+
+<body>
+	<div class="wrap-everything">
+		<section id="column-1">
+			<div class="lcars-frame">
+				<div class="frame-col-1">
+					<div class="frame-col-1-cell-a"></div>
+					<div class="frame-col-1-cell-b"></div>
+					<div class="frame-col-1-cell-c"></div>
+				</div>
+				<div class="frame-col-2"> </div>
+				<div class="frame-col-3 display-vertical">
+					<div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div><div class="line"></div>
+				</div>
+				<div class="frame-col-4"> </div>
+				<div class="frame-col-5">
+					<div class="frame-col-5-cell-a"></div>
+					<div class="frame-col-5-cell-b"></div>
+					<div class="frame-col-5-cell-c"></div>
+				</div>
+			</div>
+			<div class="pillbox">
+				<div class="pill"><a href="">J-001</a></div>
+				<div class="pill"><a href="">R-002</a></div>
+				<div class="pill"><a href="">R-003</a></div>
+				<div class="pill"><a href="">I-004</a></div>
+				<div class="pill"><a href="">C-005</a></div>
+				<div class="pill"><a href="">A-006</a></div>
+			</div>
+			<div class="lcars-list-2 uppercase">
+				<ul>
+					<li>Build Team: Active</li>
+					<li>Recruitment: Open</li>
+					<li>Projects: Ongoing</li>
+					<li class="oc-almond-creme go-almond-creme">Mentorship: Available</li>
+				</ul>
+			</div>
+			<div class="pillbox">
+				<div class="pill-2"><a href="">F12-22</a></div>
+				<div class="pill-2"><a href="">G24-22</a></div>
+				<div class="pill-2"></div>
+				<div class="pill-2"><a href="">H-07AM</a></div>
+				<div class="pill-2"><a href="">I50-72</a></div>
+				<div class="pill-2"><a href="">J5369</a></div>
+			</div>
+		</section>
+		<section id="column-2">
+			<div class="section-2-panel-a"> AA-1524 </div>
+			<div class="section-2-buttons">
+				<a href="">JS2B-01</a> 
+				<a href="">IS2B-02</a> 
+				<a href="">MS2B-03</a> 
+			</div>
+			<div class="section-2-panel-b"> <a href="">B2-0730</a> </div>
+			<div class="section-2-panel-c">C-318</div>
+			<div class="section-2-panel-d">DL-44</div>
+			<div class="section-2-panel-e">E-3504</div>
+		</section>
+		<section id="column-3">
+			<div class="wrap">
+				<div class="scroll-top"><a id="scroll-top" href=""><span class="hop">screen</span> top</a></div>
+				<div class="left-frame-top">
+					<div class="panel-1"><a href="index.html">HOME</a></div>
+					<div class="panel-2"><a href="dynmap.html">LIVE MAP</a></div>
+				</div>
+				<div class="right-frame-top">
+					<div class="banner"> TCARS &#149; <span class="blink">Online</span> </div>
+					<div class="data-cascade-button-group">
+						<div class="cascade-wrapper">
+							<div class="data-cascade" id="default">								
+								<div class="row-1"><div class="dc1">101</div><div class="dc2">7109</div><div class="dc3">1966</div><div class="dc4">36</div><div class="dc5">880</div><div class="dc6">11.03</div><div class="dc7">1954</div><div class="dc8">03</div><div class="dc9">6.08</div><div class="dc10">241</div><div class="dc11">309</div><div class="dc12">7.08</div><div class="dc13">1935</div><div class="dc14">12.20</div><div class="dc15">53</div><div class="dc15">1961</div><div class="dc15">2.16</div></div><div class="row-2"><div class="dc1">102</div><div class="dc2">8102</div><div class="dc3">1987</div><div class="dc4">044</div><div class="dc5">0051</div><div class="dc6">1968</div><div class="dc7">704</div><div class="dc8">10.31</div><div class="dc9">1984</div><div class="dc10">1954</div><div class="dc11">764</div><div class="dc12">1940</div><div class="dc13">9.9</div><div class="dc14">1972</div><div class="dc15">815</div><div class="dc15">4.12</div><div class="dc15">2023</div></div><div class="row-3"><div class="dc1">103</div><div class="dc2">714</div><div class="dc3">1993</div><div class="dc4">0222</div><div class="dc5">4.4</div><div class="dc6">1969</div><div class="dc7">2450</div><div class="dc8">91</div><div class="dc9">56</div><div class="dc10">21</div><div class="dc11">716</div><div class="dc12">801</div><div class="dc13">417</div><div class="dc14">602</div><div class="dc15">5618</div><div class="dc15">238</div><div class="dc15">1443</div></div><div class="row-4"><div class="dc1">104</div><div class="dc2">6104</div><div class="dc3">1995</div><div class="dc4">3.22</div><div class="dc5">1931</div><div class="dc6">0.0</div><div class="dc7">0000</div><div class="dc8">1701</div><div class="dc9">1984</div><div class="dc10">218</div><div class="dc11">908</div><div class="dc12">10</div><div class="dc13">85</div><div class="dc14">1888</div><div class="dc15">27</div><div class="dc15">2879</div><div class="dc15">213</div></div><div class="row-5"><div class="dc1">105</div><div class="dc2">08</div><div class="dc3">2001</div><div class="dc4">713</div><div class="dc5">079</div><div class="dc6">1977</div><div class="dc7">LV</div><div class="dc8">426</div><div class="dc9">105</div><div class="dc10">10</div><div class="dc11">1642</div><div class="dc12">1979</div><div class="dc13">402</div><div class="dc14">795</div><div class="dc15">361</div><div class="dc15">0852</div><div class="dc15">984</div></div><div class="row-6"><div class="dc1">106</div><div class="dc2">31</div><div class="dc3">2017</div><div class="dc4">429</div><div class="dc5">65</div><div class="dc6">871</div><div class="dc7">24</div><div class="dc8">541</div><div class="dc9">656</div><div class="dc10">M</div><div class="dc11">113</div><div class="dc12">12.6</div><div class="dc13">27</div><div class="dc14">05</div><div class="dc15">85</div><div class="dc15">12.25</div><div class="dc15">7884</div></div><div class="row-7"><div class="dc1">107</div><div class="dc2">5</div><div class="dc3">2022</div><div class="dc4">784</div><div class="dc5">3304</div><div class="dc6">42</div><div class="dc7">733</div><div class="dc8">1224</div><div class="dc9">5801</div><div class="dc10">23</div><div class="dc11">1015</div><div class="dc12">84</div><div class="dc13">36</div><div class="dc14">029</div><div class="dc15">24</div><div class="dc15">318</div><div class="dc15">12.24</div></div><div class="row-8"><div class="dc1">108</div><div class="dc2">23</div><div class="dc3">174</div><div class="dc4">91</div><div class="dc5">947</div><div class="dc6">28</div><div class="dc7">527</div><div class="dc8">04</div><div class="dc9">0469</div><div class="dc10">2200</div><div class="dc11">88</div><div class="dc12">1985</div><div class="dc13">540</div><div class="dc14">3121</div><div class="dc15">308</div><div class="dc15">9571</div><div class="dc15">404</div></div>
+							</div>
+						</div>
+						<nav> 
+							<a href="index.html" id="b-one" class="go-away">HOME</a>
+							<a href="https://discord.gg/SMwzupB7pv" id="b-four">DISCORD</a>
+							<a href="https://www.youtube.com/channel/UC7ifNIieMiX2DsllFIFsnBQ" id="b-five">YOUTUBE</a>
+							<a href="aboutus.html" id="b-six">ABOUT US</a>
+							<a href="join-build-team.html" id="b-seven">JOIN TEAM</a>
+							<a href="server-guide.html" id="b-three">MODPACK INSTALL</a>
+						</nav>
+					</div>
+					<div class="bar-panel first-bar-panel">
+						<div class="bar-1"></div>
+						<div class="bar-2"></div>
+						<div class="bar-3"></div>
+						<div class="bar-4"></div>
+						<div class="bar-5"></div>
+					</div>
+				</div>
+			</div>
+			<div class="wrap" id="gap">
+				<div class="left-frame">
+					<div>
+						<div class="panel-3">03<span class="hop">-111968</span></div>
+						<div class="sidebar-buttons">
+							<a href="rules.html">RULES</a>
+							<a href="builders/login.html">TEAM ACCESS</a>
+						</div>
+						<div class="panel-6">06<span class="hop">-071984</span></div>
+						<div class="panel-7">07<span class="hop">-081940</span></div>
+						<div class="panel-8">08<span class="hop">-47148</span></div>
+						<div class="panel-9">09<span class="hop">-081966</span></div>
+					</div>
+					<div>
+						<div class="panel-10">10<span class="hop">-31</span></div>
+					</div>
+				</div>
+				<div class="right-frame">
+					<div class="bar-panel">
+						<div class="bar-6"></div>
+						<div class="bar-7"></div>
+						<div class="bar-8"></div>
+						<div class="bar-9"></div>
+						<div class="bar-10"></div>
+					</div>
+					<main>
+
+						<!-- Start your content here. -->
+						
+						<div class="go-center">
+						<h2>Join Our Build Team</h2>
+                        <img src="images/familyphoto (Small).png" class="pics">
+						<p class="c">Help create the next generation of TrekCraft ships</p>
+                        <hr>
+						</div>
+						
+						<div class="go-center">
+						<div class="lcars-text-bar">
+						<span>Quick Navigation</span>
+						</div>
+						<div class="buttons jc-center">
+							<a href="#about-program" class="orange">About Program</a>
+							<a href="#who-we-look-for" class="blue">Who We Look For</a>
+							<a href="#building-process" class="green">Application Timeline</a>
+							<a href="#your-application" class="magenta">Your Application</a>
+							<a href="#preparation-resources" class="butterscotch">Resources</a>
+							<a href="#what-if-rejected" class="red">What If Declined?</a>
+							<a href="#application-form" class="sunflower">Apply Now</a>
+						</div>
+						</div>
+						
+						<h2 class="go-orange" id="about-program">About Our Program</h2>
+						
+						<div class="go-left">
+						<p>TrekCraft is the longest-running sci-fi megabuilding community in Minecraft. We create massive, detailed ships inspired by Star Trek and other sci-fi universes, with builds that take months or even years to complete.</p>
+						
+						<p>Our Builder Program offers a structured path for talented builders to join our collaborative projects. You'll start with focused trial builds, receive guidance from a dedicated liaison, and gradually take on larger projects as you develop and get to know our team.
+                        
+						</div>
+						
+						<hr style="border: 1px solid #f70; margin: 30px 0;">
+						
+						<h2 class="go-orange" id="who-we-look-for">Who We're Looking For</h2>
+						
+						<div class="go-left">
+						<p>We want more than just skilled builders — we're looking for teammates. Joining the TrekCraft build team means becoming part of a casual, collaborative crew that values creativity, communication, and community.</p>
+						</div>
+						
+						<div style="display: flex; gap: 20px; margin: 20px 0;">
+							<div style="flex: 1;">
+								<h3 class="go-butterscotch"> Constructive, Mature, and Open-Minded</h3>
+								<ul class="lcars-list">
+								<li>You're open to feedback and see it as part of the creative process</li>
+								<li>Our review style is direct, honest, and always focused on helping the team grow</li>
+								<li>You treat others with respect and are comfortable in a group of mostly young adult builders</li>
+								<li>You're mature enough to handle disagreements with grace and humor</li>
+								</ul>
+								
+								<h3 class="go-butterscotch"> Self-Sufficient & Team-Oriented</h3>
+								<ul class="lcars-list">
+								<li>You can work independently, without needing constant check-ins</li>
+								<li>You understand this is a team-first environment. We build together. We succeed together</li>
+								<li>You're excited to contribute ideas, share WIPs, and push the project forward</li>
+								</ul>
+							</div>
+							
+							<div style="flex: 1;">
+								<h3 class="go-butterscotch"> Passionate About the Project</h3>
+								<ul class="lcars-list">
+								<li>You're in it for the long haul. Many of our builds take months or even years to complete</li>
+								<li>You're enthusiastic about Star Trek, TrekCraft, and the lore-inspired design work we do</li>
+								<li>You enjoy sharing your work with the community — on Discord, in screenshots, on socials</li>
+								</ul>
+								
+								<h3 class="go-butterscotch"> Social & Casual</h3>
+								<ul class="lcars-list">
+								<li>While there's no minimum activity requirement, we value folks who get involved when they can</li>
+								<li>That could mean hopping in VC during build sessions, joining our movie nights, or just chatting in Discord</li>
+								<li>We're not strict. We're nerds building nerdy things for fun</li>
+								</ul>
+							</div>
+						</div>
+						
+						<hr style="border: 1px solid #f70; margin: 30px 0;">
+						
+						<h2 class="go-orange" id="building-process">Application Timeline</h2>
+						
+						<div class="go-left">
+						<p>Here's what to expect from application to becoming a full TrekCraft builder:</p>
+						
+						<div class="lcars-text-bar">
+						<span class="go-peach">📋 Step 1: Application Review (1-2 weeks)</span>
+						</div>
+						<p>We review your application build and responses within 1-2 weeks using our evaluation rubric. We're looking for technical skill, creative vision, and alignment with our team values. If your application shows promise, you'll receive the Recruit role in Discord, and access to our Recruit channels.</p>
+						
+						<div class="lcars-text-bar">
+						<span class="go-peach">🚀 Step 2: Trial Phase (avg. 4-8 weeks)</span>
+						</div>
+						<p>New builders start by being paired with a liaison—someone you can talk to, ask questions, and get support throughout your trial period. Your liaison will help connect you with other builders to get as much experience as possible working on different aspects of our builds before the end of your trial period. Most folks will be ready for their final review in about 4-8 weeks. </p>
+
+						<p>Recruits in the trial phase will not be able to start solo-projects until their promotion to full builder. We want to encourage new members on the team to work collaboratively to avoid burnout, and to have more opportunity to work with different members of our build team.</p>
+						
+						<p class="go-magenta"><em>Note: Both application review and trial completion are evaluated using our standardized rubric to ensure fair and consistent assessment.</em></p>
+						
+						<div class="drawer-list">
+							<button class="drawer-header" onclick="toggleDrawer('rubric-drawer')">
+								<span>📊 Evaluation Rubric</span>
+								<span class="drawer-toggle">▶</span>
+							</button>
+							<div class="drawer-content" id="rubric-drawer">
+								<h4 class="go-peach">Scoring System</h4>
+								<p>Each category is scored 0–3:</p>
+								<ul class="lcars-list">
+								<li><span class="go-violet">0 – Missing or inadequate</span></li>
+								<li><span class="go-violet">1 – Needs improvement</span></li>
+								<li><span class="go-violet">2 – Solid effort / acceptable</span></li>
+								<li><span class="go-violet">3 – Excellent / exceeds expectations</span></li>
+								</ul>
+								
+								<h4 class="go-peach">Evaluation Categories</h4>
+								<ul class="lcars-list">
+								<li><span class="go-violet">Use of Modded Assets:</span> TrekCraft resource pack and modded blocks used effectively across plots</li>
+								<li><span class="go-violet">Scale & Proportions:</span> Modern standards (e.g. 3–5 block hallways, 3–4 blocks between decks) maintained consistently</li>
+								<li><span class="go-violet">Theme Interpretation:</span> Each plot effectively represents its assigned theme with appropriate rooms and functions</li>
+								<li><span class="go-violet">Layout & Flow:</span> Logical room planning, efficient space usage, and good flow between areas</li>
+								<li><span class="go-violet">Detailing & Style:</span> Consistent styles, purposeful decoration, and attention to relevant aesthetics</li>
+								<li><span class="go-violet">Variety & Range:</span> Shows range across different plot types and demonstrates versatility</li>
+								<li><span class="go-violet">Originality & Creativity:</span> New ideas, clever solutions, and novel approaches to familiar themes</li>
+								<li><span class="go-violet">Completion & Polish:</span> All required plots completed with care and attention to detail</li>
+								<li><span class="go-violet">Application Effort:</span> Thoughtful, detailed responses to application questions showing genuine interest and understanding</li>
+								<li><span class="go-violet">Growth Potential:</span> Clear potential to grow with guidance and collaboration</li>
+								</ul>
+								
+								<p class="go-magenta"><em>Total possible score: 30 points. We're looking for potential, attitude, and team compatibility — not perfection!</em></p>
+								<p class="go-gold"><em>Pass threshold: 20 points or higher will be considered a "Pass" for application and trial review.</em></p>
+								<p class="go-tomato"><em>Note: For trial builders, Growth Potential will be evaluated based on actual growth and impact during their trial period on the server.</em></p>
+								<p class="go-tomato"><em>Note: For trial builders, Application Effort transitions to Social Engagement - how well they interact with the team, participate in Discord, and contribute to the community.</em></p>
+							</div>
+							<p class="go-center">Our current evaluation committee members are: BirchyBo1, Martini_Glass, and CALV1N___</p>
+						</div>
+						
+						<div class="lcars-text-bar">
+						<span class="go-peach">✅ Step 3: Full Builder Promotion</span>
+						</div>
+						<p>After about 4-8 weeks working with our team your liaison will submit you and the work you've done so far for a second evaluation against our rubric. Successful trial completion leads to full Builder status. As part of your promotion you'll gain:</p>
+						<ul class="lcars-list">
+						<li><span class="go-violet">Axiom Training:</span> Access to our Axiom mod training and resources (we encourage all applicants to practice with Axiom in singleplayer first)</li>
+						<li><span class="go-violet">Builder Access:</span> Full access to our builders-only Discord channels and your own plot on the server</li>
+						<li><span class="go-violet">Project Freedom:</span> Ability to start your own builds (though we strongly recommend avoiding solo projects for at least 3-6 months)</li>
+						<li><span class="go-violet">Liaison Role:</span> Opportunity to become a liaison for future trial builders as you gain experience</li>
+						</ul>
+						
+						<p><em>Note: The timeline can vary based on project complexity and team availability. We'll keep you updated throughout the process.</em></p>
+						</div>
+						
+						<hr style="border: 1px solid #f70; margin: 30px 0;">
+						
+						<h2 class="go-orange" id="your-application">Your Application</h2>
+						
+						<div class="go-left">
+						<p>Ready to apply? Here's everything you need to know about submitting your application:</p>
+						
+						<p>We want to see your best effort, regardless of experience level. Don't worry about being perfect — we're looking for passion, creativity, and a solid attempt that shows you understand our requirements.</p>
+						
+						<p class="go-magenta"><em>Note: Your application must be a solo project. We do not accept group applications, and any application that appears to have been assisted by another builder will be declined.</em></p>
+						</div>
+						
+						<hr style="border: 1px solid #f70; margin: 30px 0;">
+						
+						<h3 class="go-peach" id="application-plot">Application Plot System</h3>
+
+<div class="go-left">
+	
+<p>All applicants will use our official application world/blueprint containing 9 themed plots, each 50x50 blocks. You must build a minimum of 6 plots, and you can choose any combination of the 9 available themes.</p>
+
+<img src="images\recruit_plot_topdown.png" class="pics" style="width:50%;">
+
+<div class="lcars-text-bar">
+	<span class="go-peach">Build Requirements & Guidelines:</span>
+	</div>
+	
+	<ul class="lcars-list">
+	<li><span class="go-violet">Slice of Life:</span> Each plot should feel like a complete slice of a full build. For example, a "Living" plot might include a corridor with entries to quarters, a family suite, and a tailor — showing variety within the theme.</li>
+							<li><span class="go-violet">Modern Design:</span> Use modern layout practices (hallways 3–5 blocks wide, decks 3–4 blocks of air between them) and our custom blocks (not just vanilla)</li>
+						<li><span class="go-violet">Space Usage:</span> Plots don't need to be "full" (using every inch of block space), but should make good use of the area to showcase your abilities</li>
+						<li><span class="go-violet">No Height Limit:</span> There is no vertical height limit, as long as the entire plot can be captured in a few pictures</li>
+						<li><span class="go-violet">Photos Required:</span> Submit clear photos/screenshots of your finished plots as part of your application</li>
+	</ul>
+	<span class="go-center"><h3 class="go-mars"> Important!</h3>
+	<p class="go-mars">
+		All applicants must build using our current 
+		<a href="modpack-guides/1-21-modpack-guide.html" class="go-mars">1.21.1 modpack</a>.
+	</p>
+	</span>
+
+<div class="lcars-text-bar">
+<span class="go-peach">Available Plot Themes</span>
+</div>
+
+<p>We've picked out 9 themes that are essential to any project. You'll pick at least 6 of these themes to represent on your application. While the themes are fixed, your interpretation is not. Feel free to ignore our example room ideas and come up with whatever you think fits best.</p>
+
+
+
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin: 20px 0;">
+	<div>
+		<h3 style="color: #3D4B45;">Recreation</h3>
+		<p>Holodeck simulations, lounges, arboretums, sports facilities, or entertainment areas.</p>
+		
+		<h3 style="color: #AE9A5A;">Engineering</h3>
+		<p>Main Engineering, Jefferies Tubes, EPS conduits, power distribution, or systems.</p>
+		
+		<h3 style="color: #903D3D;">Tactical</h3>
+		<p>Armories, security offices, training simulators, or defensive systems.</p>
+		
+		<h3 style="color: #1E736A;">Science</h3>
+		<p>Labs, research bays, astrometrics, exobiology, or experimental facilities.</p>
+		
+		<h3 style="color: #57867E;">Medical</h3>
+		<p>Sickbay, medical labs, quarantine wards, or treatment facilities.</p>
+	</div>
+	
+	<div>
+		<h3 style="color: #926D45;">Living</h3>
+		<p>Crew quarters, officer suites, mess halls, or communal living spaces.</p>
+
+		<h3 style="color: #574869;">Operations</h3>
+		<p>Cargo bays, transporter rooms, computer cores, or logistical facilities.</p>
+
+		<h3 style="color: #A07EB2;">"Hero" Area</h3>
+		<p>Large, dramatic locations like bridges, shuttlebays, or a theater.</p>
+
+		<h3 style="color: #C9CCCF;">Wildcard</h3>
+		<p>No theme restriction — let your creativity run wild!</p>
+	</div>
+</div>
+
+<p class="go-center go-orange">Want to see an example of completed plots? Use /transporter on server to check out the Recruit Yard!</p>
+
+<div class="lcars-text-bar">
+<span class="go-peach">Download Application Plots</span>
+</div>
+
+<div class="go-center">
+<div class="buttons jc-center">
+	<a href="https://trekcraft-mods.s3.us-east-2.amazonaws.com/TrekCraft+Application+Plots.zip" class="orange">World File</a>
+	<a href="https://trekcraft-mods.s3.us-east-2.amazonaws.com/trekcraft_application_plots.bp" class="blue">Axiom Blueprint</a>
+</div>
+</div>
+</div>
+
+						<hr style="border: 1px solid #f70; margin: 30px 0;">
+						
+						<h3 class="go-peach" id="preparation-resources">Preparation & Resources</h3>
+						
+						<div class="go-left">
+						<p>Take advantage of all available resources to create your best application:</p>
+						<ul class="lcars-list">
+						<li>Review our evaluation <a href="#rubric-drawer">rubric</a> to understand what we're looking for</li>
+						<li>Explore our current builds on the server for ideas and reference</li>
+						<li>Use our marker blocks to help you layout ideas and plan</li>
+						<li>Join our Discord to ask questions and chat with our team</li>
+						<li>Study our resource pack and modded blocks to understand the tools available</li>
+						<li>Take your time and put in the effort — quality over speed</li>
+						</ul>
+						</div>
+						
+						<hr style="border: 1px solid #f70; margin: 30px 0;">
+						
+						<h3 class="go-peach" id="age-consideration">Age Consideration</h3>
+						
+						<div class="go-left">
+						<p>To maintain a comfortable space for all of our builders (mostly in their late teens to 30s), we limit applicants to age 16+. Maturity, respect, and communication skills are non-negotiable regardless of age.</p>
+						</div>
+						
+						<hr style="border: 1px solid #f70; margin: 30px 0;">
+						
+						<h2 class="go-orange" id="what-if-rejected">What If I'm Declined or Don't Pass Trial?</h2>
+						
+						<div class="go-left">
+						<p>We understand that being declined can be disappointing, but it's not the end of your TrekCraft journey. Here's what you should know:</p>
+						
+						<div class="lcars-text-bar">
+						<span class="go-peach">Application Decline</span>
+						</div>
+						<p>If your initial application isn't accepted, you'll receive specific feedback about areas for improvement. Common reasons include:</p>
+						<ul class="lcars-list">
+						<li>Plots or application is incomplete, or missing key elements</li>
+						<li>Technical skills need development (block usage, layout planning, etc.)</li>
+						<li>Application responses don't align with our team values</li>
+						<li>Age requirement not met</li>
+						</ul>
+						<p><strong>You can reapply after 3 months</strong> with an improved build and application. Focus on addressing the specific feedback you received, and consider spending more time studying our existing builds and resource pack before reapplying.</p>
+						
+						<div class="lcars-text-bar">
+						<span class="go-peach">Trial Period Challenges</span>
+						</div>
+						<p>If you don't complete the trial period successfully, it's usually due to:</p>
+						<ul class="lcars-list">
+						<li>Inconsistent communication or absent for majority of trial</li>
+						<li>Difficulty adapting to our collaborative workflow</li>
+						<li>Lack of on server work to evaluate</li>
+						<li>Team dynamics or maturity concerns</li>
+						</ul>
+						<p><strong>You can reapply after 6 months</strong> if you feel you've addressed the feedback and are ready to try again. Use this time to practice building, improve your communication skills, and demonstrate your commitment to collaborative work.</p>
+						
+						<div class="lcars-text-bar">
+						<span class="go-peach">Staying Connected</span>
+						</div>
+						<p>Even if you're not ready to join the build team, you're welcome to:</p>
+						<ul class="lcars-list">
+						<li>Join our Discord community as a visitor</li>
+						<li>Participate in community events and discussions</li>
+						<li>Share your builds in our art & related channel</li>
+						<li>Apply again when you feel ready</li>
+						</ul>
+						<p><em>Our goal is to build a strong, collaborative team. Sometimes that means waiting for the right fit or giving applicants time to grow. We also know that this entire process may seem daunting, or even silly. We get it, and we appretiate the time and effort that every application displays - Thank you.</em></p>
+						</div>
+						
+						<hr style="border: 1px solid #f70; margin: 30px 0;">
+						
+
+						
+						<div id="application-form" class="go-center">
+						<h2 class="go-orange">Application Form</h2>
+						
+						<p>Please complete your build according to the guidelines above, then submit your application using the form below. Include screenshots or videos of your completed plots.</p>
+						
+						<div class="go-center">
+						<div class="buttons jc-center">
+							<a href="https://forms.gle/5hpXwRzYEFUgrb1j6" class="red" target="_blank">SUBMIT APPLICATION</a>
+						</div>
+						</div>
+						</div>
+						
+						<!-- End content area. -->
+
+						<footer>
+							<div class="footer-inside">
+								<div class="footer-text">
+									<p>Copyright &#169; 2025 TrekCraft.</p>
+									<p>LCARS Inspired Website Template by Jim Robertus <a href="https://www.thelcars.com">www.TheLCARS.com</a>.</p>
+									<p>TrekCraft is not affiliated, sponsored, or endorsed by CBS Studios Inc. Star Trek and it's associated marks are the sole property of CBS Studios Inc.</p>
+								</div>
+							</div>
+							<div class="footer-panel"> <span class="hop">22</span>47 </div>
+						</footer>
+					</main>
+				</div>
+			</div>
+		</section>
+	</div>
+	<script type="text/javascript" src="assets/lcars.js"></script>
+	<script>
+		// Drawer toggle functionality
+		function toggleDrawer(drawerId) {
+			const drawer = document.getElementById(drawerId);
+			const toggle = drawer.previousElementSibling.querySelector('.drawer-toggle');
+			
+			if (drawer.classList.contains('active')) {
+				drawer.classList.remove('active');
+				toggle.classList.remove('rotated');
+			} else {
+				drawer.classList.add('active');
+				toggle.classList.add('rotated');
+			}
+		}
+
+		// Ensure rubric links open the drawer and scroll to it
+		window.addEventListener('DOMContentLoaded', function() {
+			const rubricLinks = document.querySelectorAll('a[href="#rubric-drawer"]');
+			const rubricDrawer = document.getElementById('rubric-drawer');
+			const rubricHeader = rubricDrawer ? rubricDrawer.previousElementSibling : null;
+			if (rubricLinks && rubricDrawer && rubricHeader) {
+				rubricLinks.forEach(function(link) {
+					link.addEventListener('click', function(e) {
+						e.preventDefault();
+						if (!rubricDrawer.classList.contains('active')) {
+							// Open the drawer
+							rubricHeader.click();
+						}
+						// Scroll to the drawer
+						setTimeout(function() {
+							rubricDrawer.scrollIntoView({behavior: 'smooth', block: 'start'});
+						}, 100);
+					});
+				});
+			}
+		});
+	</script>
+</body>
+
+</html> 

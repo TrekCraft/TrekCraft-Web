@@ -2,13 +2,60 @@
 <html>
 
 <head>
-	<title>TrekCraft</title>
+	<title>TrekCraft - Build Team Applications Open</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="format-detection" content="telephone=no">
 	<meta name="format-detection" content="date=no">
-	<link rel="stylesheet" type="text/css" href="assets/lcars-ultra-classic.css">
-	<link rel="stylesheet" type="text/css" href="assets/lcars-colors.css">
-	<script src="assets/jquery-3.6.3.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../assets/lcars-ultra-classic.css">
+	<link rel="stylesheet" type="text/css" href="../assets/lcars-colors.css">
+	<style>
+		h3 {
+			color: #ff9900;
+		}
+		
+		/* Drawer list styles */
+		.drawer-list {
+			margin: 20px 0;
+		}
+		
+		.drawer-header {
+			background-color: #c8f;
+			color: #000;
+			padding: 10px;
+			cursor: pointer;
+			font-weight: bold;
+			border: none;
+			width: 100%;
+			text-align: left;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+		
+		.drawer-header:hover {
+			background-color: #dbf;
+		}
+		
+		.drawer-content {
+			display: none;
+			border: 1px solid #c8f;
+			border-top: none;
+		}
+		
+		.drawer-content.active {
+			display: block;
+		}
+		
+		.drawer-toggle {
+			font-size: 1.2em;
+			transition: transform 0.3s ease;
+		}
+		
+		.drawer-toggle.rotated {
+			transform: rotate(90deg);
+		}
+	</style>
+	<script src="../assets/jquery-3.6.3.min.js"></script>
 </head>
 
 <body>
@@ -41,10 +88,10 @@
 			</div>
 			<div class="lcars-list-2 uppercase">
 				<ul>
-					<li>Subspace Link: Established</li>
-					<li>Starfleet Database: Connected</li>
-					<li>Quantum Memory Field: stable</li>
-					<li class="oc-almond-creme go-almond-creme">Optical Data Network: rerouting</li>
+					<li>Build Team: Active</li>
+					<li>Recruitment: Open</li>
+					<li>Projects: Ongoing</li>
+					<li class="oc-almond-creme go-almond-creme">Mentorship: Available</li>
 				</ul>
 			</div>
 			<div class="pillbox">
@@ -73,7 +120,7 @@
 				<div class="scroll-top"><a id="scroll-top" href=""><span class="hop">screen</span> top</a></div>
 				<div class="left-frame-top">
 					<div class="panel-1"><a href="../index.html">HOME</a></div>
-					<div class="panel-2">02<span class="hop">-262000</span></div>
+					<div class="panel-2"><a href="../dynmap.html">LIVE MAP</a></div>
 				</div>
 				<div class="right-frame-top">
 					<div class="banner"> TCARS &#149; <span class="blink">Online</span> </div>
@@ -85,14 +132,11 @@
 						</div>
 						<nav> 
 							<a href="../index.html" id="b-one" class="go-away">HOME</a>
-							<a href="../dynmap.html" id="b-three">LIVE MAP</a>
 							<a href="https://discord.gg/SMwzupB7pv" id="b-four">DISCORD</a>
 							<a href="https://www.youtube.com/channel/UC7ifNIieMiX2DsllFIFsnBQ" id="b-five">YOUTUBE</a>
-							<a href="aboutus.html" id="b-six">ABOUT US</a>
-							<a href="applications.html" id="b-two">BECOME A BUILDER</a>
-							<a href="meet-the-team.html" id="b-one" class="go-away">MEET THE TEAM</a>
-							<a href="server-guide.html" id="b-three">VISIT TREKCRAFT</a>
-							<a href="gallery.html" id="b-four" class="go-away">GALLERY</a>
+							<a href="../aboutus.html" id="b-six">ABOUT US</a>
+							<a href="../join-build-team.html" id="b-seven">JOIN TEAM</a>
+							<a href="../server-guide.html" id="b-three">MODPACK INSTALL</a>
 						</nav>
 					</div>
 					<div class="bar-panel first-bar-panel">
@@ -108,8 +152,10 @@
 				<div class="left-frame">
 					<div>
 						<div class="panel-3">03<span class="hop">-111968</span></div>
-						<div class="panel-4">04<span class="hop">-041969</span></div>
-						<div class="panel-5">05<span class="hop">-1701D</span></div>
+						<div class="sidebar-buttons">
+							<a href="../rules.html">RULES</a>
+							<a href="builders/login.html">TEAM ACCESS</a>
+						</div>
 						<div class="panel-6">06<span class="hop">-071984</span></div>
 						<div class="panel-7">07<span class="hop">-081940</span></div>
 						<div class="panel-8">08<span class="hop">-47148</span></div>
@@ -130,75 +176,90 @@
 					<main>
 
 						<!-- Start your content here. -->
-
-						<h2>Recruit Applications</h2>
 						
+						<div class="go-center">
+						<h2>TrekCraft Build Team Applications Are Now Open!</h2>
+						<p>JULY 14th, 2025</p>
+						</div>
+
+						<div class="go-left">
 						<div class="lcars-text-bar">
-						<span>What is a Recruit?</span>
+						<span class="go-almond-creme">Build Team Applications Are Open</span>
 						</div>
 						
-						<p>So you want to join TrekCraft? We're always welcoming new builders to join the team! New builders start out as an Recruit. A Recruit is given a small build yard to work on their own ship, paired with various builders to help them learn our tools, best practices, and to help them refine their build process.</p>
+						<p>We're excited to announce that TrekCraft build team applications are now open!</p>
+						
+						<p>TrekCraft is the longest-running sci-fi megabuilding community in Minecraft. We build massive Star Trek ships — some take months or even years to complete. It's a collaborative environment where we work together on these huge projects.</p>
 						
 						<div class="lcars-text-bar">
-						<span>Creating your Application</span>
+						<span class="go-almond-creme">What We Do</span>
 						</div>
 						
-						<p>For your application we recommend doing a small build (A Runabout size shuttle, or the first deck of a ship). The idea is for us to get a view of your skillset, block pallet use, and ability to reference our build standards. Don't stress about a full-size ship for this though! We just need a small snapshot.</p>
-
-						<p>It is strongly recommend that you use the builds on server as reference for whatever you might be building.</p>
-
-						<p>Make sure to use our resource and mod pack for your application. We also recommend avoiding the use of vanilla textures when possible. While they are allowed, we want to see what you're able to do with our custom resources as we do not build with vanilla very often.</p>
+						<p>We build massive ships (500+ meters) with dozens of decks, using our custom resource pack and suite of mods. Our builds respect canon and push what's possible in Minecraft. It's not just building — it's being part of a team that cares about the work.</p>
 						
 						<div class="lcars-text-bar">
-						<span>Submitting your Application</span>
+						<span class="go-almond-creme">The Process</span>
 						</div>
 						
-						<p>Once you're ready to apply, head to the #recruit-application page on our Discord. From there you can open your application, fill out our form, and attach pictures of your build. Make sure to review the steps carefully! Once our team reviews you should be given a decision and more details within about ~72hrs of applying.</p>
-
+						<p>Here's how it works:</p>
+						<ul class="lcars-list">
+							<li><strong>Application:</strong> Build 6+ themed plots using our 1.21.1 modpack</li>
+							<li><strong>Trial Period:</strong> Roughly 4-8 weeks working with the team</li>
+							<li><strong>Full Builder:</strong> Access to everything and your own projects</li>
+						</ul>
+						
 						<div class="lcars-text-bar">
-							<span>Recruit Buildyard</span>
-							</div>
-
-						<p>The recurit buildyard is our area where recruits who pass our application process are able to build their own small-scale ship. This allows you to do a custom build alongside our build team, ask questions, and get feedback and training on how to execute your ideas as best as possible. You have the option of using one of our small hulls, bringing your own small build to the server, or building something entirely from scratch.</p>
-
-						<div class="lcars-text-bar">
-							<span>Recruit Buildyard Rules & FAQ</span>
-							</div>
-							
-							<ul class="lcars-list">
-							<li>Players are not allowed to copy other players' work without permission.</li>
-							<li>The server builds can be used as examples to understand what makes a good project.</li>
-							<li>Players must stay within their assigned build plot.</li>
-								<li>For large-scale tasks like mirroring the ship, players can request World Edit assistance, but the rest of the building must be done by hand.</li>
-									<li>Players can ask staff members to alter their ship models, provided a staff member is willing to do so. However, continuous changes during the plot setup are discouraged to avoid excessive time consumption.</li>
-										<li>While players can ask for feedback and suggestions, staff members and other players cannot directly contribute to an individual player's Apprentice build. This is to assess the player's ability to work independently.</li>
-											<li>Players are required to plan their ships using the planning blocks provided in the mod pack. This helps them get accustomed to the standard planning and building practices used by the community.</li>
-
-						<div class="lcars-text-bar">
-						<span>Recruit FAQ</span>
+						<span class="go-almond-creme">What We Look For</span>
 						</div>
 						
-						<h3>Can I have help with my application?</h3>
-						<blockquote>While you're welcome to ask questions about the application process in our #sos-support channel, the application process is a solo one. If your application contains the work of others, it will be denied.</blockquote>
+						<p>We want teammates, not just builders. You need to be:</p>
+						<ul class="lcars-list">
+							<li>16+ with good communication skills</li>
+							<li>Able to work independently but also collaboratively</li>
+							<li>Committed to long-term projects</li>
+							<li>Passionate about Star Trek and sci-fi building</li>
+							<li>Open to feedback and willing to learn</li>
+							<li>Social and casual — we're nerds building nerdy things</li>
+						</ul>
 						
-						<h3>Does it have to be Star Trek?</h3>
-						<blockquote>No! You're welcome to submit whatever you like as long as it's relevant to TrekCraft. Try to keep it Sci-Fi if possible, and be mindful of the requirements listed above.</blockquote>
+						<div class="lcars-text-bar">
+						<span class="go-almond-creme">The Reality</span>
+						</div>
 						
-						<h3>How long do I have to complete my application?</h3>
-						<blockquote>In terms of time, you will have as long as you need to complete your application to your satisfaction.</blockquote>
+						<p>This isn't easy. Our builds are complex, our standards are high, and it takes time to learn our style. But if you're willing to put in the work, learn from feedback, and be part of a team, it's incredibly rewarding.</p>
 						
-						<h3>What happens if I'm accepted/denied?</h3>
-						<blockquote>If your application is denied, one of our staff will reach out to give you feedback on your application. We'd encourage you to use this feedback to make another attempt after 14-days. If you're accepted, you'll be welcomed into our private Recruit channel where we provide more details about who you'll be working with, and feedback on your work as you progress to full member. </blockquote>
-
-						<h3>Does the form capture my personal information?</h3>
-						<blockquote>No, and no one at TrekCraft will ever ask for your personal information for any reason. The note at the top of the form is placed their by Google as they track TOS violations of users submissions. This is not shared with us.</blockquote>
+						<p>We're honest about the effort required because we want people who are ready for the challenge. But we also know that the best builders often start with passion rather than perfect skills.</p>
+						
+						<div class="lcars-text-bar">
+						<span class="go-almond-creme">Ready to Try?</span>
+						</div>
+						
+						<p>If you're interested, start by reading our complete application guide. It has all the details about what to build, how to apply, and what to expect.</p>
+						
+						<div class="buttons">
+							<a href="../join-build-team.html" class="orange">Application Guide</a>
+							<a href="../modpack-guides/1-21-modpack-guide.html" class="blue">Visit TrekCraft</a>
+							<a href="https://discord.gg/SMwzupB7pv" class="green">Join Discord</a>
+						</div>
+						
+						<p>Even if you're not ready to join the build team, you're welcome in our Discord community. Many of our current builders started as visitors.</p>
+						
+						<p>We appreciate everyone who takes the time to apply. It shows you care about what we do, and that's what matters most.</p>
+						
+						<div class="go-center">
+						<h3><strong>Live long and prosper! 🖖</strong></h3>
+						</div>
+						
+						<hr style="border: 1px solid #f70; margin: 30px 0;">
+						
+						<p><em>Questions about the application process? Join our Discord or check out our <a href="../join-build-team.html">complete application guide</a>.</em></p>
 						
 						<!-- End content area. -->
 
 						<footer>
 							<div class="footer-inside">
 								<div class="footer-text">
-									<p>Copyright &#169; 2023 TrekCraft.</p>
+									<p>Copyright &#169; 2025 TrekCraft.</p>
 									<p>LCARS Inspired Website Template by Jim Robertus <a href="https://www.thelcars.com">www.TheLCARS.com</a>.</p>
 									<p>TrekCraft is not affiliated, sponsored, or endorsed by CBS Studios Inc. Star Trek and it's associated marks are the sole property of CBS Studios Inc.</p>
 								</div>
@@ -210,7 +271,22 @@
 			</div>
 		</section>
 	</div>
-	<script type="text/javascript" src="assets/lcars.js"></script>
+	<script type="text/javascript" src="../assets/lcars.js"></script>
+	<script>
+		// Drawer toggle functionality
+		function toggleDrawer(drawerId) {
+			const drawer = document.getElementById(drawerId);
+			const toggle = drawer.previousElementSibling.querySelector('.drawer-toggle');
+			
+			if (drawer.classList.contains('active')) {
+				drawer.classList.remove('active');
+				toggle.classList.remove('rotated');
+			} else {
+				drawer.classList.add('active');
+				toggle.classList.add('rotated');
+			}
+		}
+	</script>
 </body>
 
-</html>
+</html> 

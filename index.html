@@ -8,6 +8,49 @@
 	<meta name="format-detection" content="date=no">
 	<link rel="stylesheet" type="text/css" href="assets/lcars-ultra-classic.css">
 	<link rel="stylesheet" type="text/css" href="assets/lcars-colors.css">
+	<style>
+		/* Drawer list styles */
+		.drawer-list {
+			margin: 20px 0;
+		}
+		
+		.drawer-header {
+			background-color: #c8f;
+			color: #000;
+			padding: 10px;
+			cursor: pointer;
+			font-weight: bold;
+			border: none;
+			width: 100%;
+			text-align: left;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+		
+		.drawer-header:hover {
+			background-color: #dbf;
+		}
+		
+		.drawer-content {
+			display: none;
+			border: 1px solid #c8f;
+			border-top: none;
+		}
+		
+		.drawer-content.active {
+			display: block;
+		}
+		
+		.drawer-toggle {
+			font-size: 1.2em;
+			transition: transform 0.3s ease;
+		}
+		
+		.drawer-toggle.rotated {
+			transform: rotate(90deg);
+		}
+	</style>
 	<script src="assets/jquery-3.6.3.min.js"></script>
 </head>
 
@@ -88,6 +131,7 @@
 							<a href="https://discord.gg/SMwzupB7pv" id="b-four">DISCORD</a>
 							<a href="https://www.youtube.com/channel/UC7ifNIieMiX2DsllFIFsnBQ" id="b-five">YOUTUBE</a>
 							<a href="aboutus.html" id="b-six">ABOUT US</a>
+							<a href="join-build-team.html" id="b-seven">JOIN TEAM</a>
 							<a href="server-guide.html" id="b-three">MODPACK INSTALL</a>
 						</nav>
 					</div>
@@ -104,8 +148,10 @@
 				<div class="left-frame">
 					<div>
 						<div class="panel-3">03<span class="hop">-111968</span></div>
-						<div class="panel-4"><a href="builders/login.html">04<span class="hop">-TEAM ACCESS</span></a></div>
-						<div class="panel-5">05<span class="hop">-1701D</span></div>
+						<div class="sidebar-buttons">
+							<a href="rules.html">RULES</a>
+							<a href="builders/login.html">TEAM ACCESS</a>
+						</div>
 						<div class="panel-6">06<span class="hop">-071984</span></div>
 						<div class="panel-7">07<span class="hop">-081940</span></div>
 						<div class="panel-8">08<span class="hop">-47148</span></div>
@@ -159,22 +205,35 @@
 						</div>
 						
 						<ul class="lcars-list">
+						<li><a href="logs/log_6.html">BUILD TEAM APPLICATIONS NOW OPEN!</a>
+						<br>JULY 14th, 2025</li>
 						<li><a href="logs/log_5.html">THE QOL UPDATE - SHAFTT MOD RELEASED</a>
 						<br>JULY 5th, 2025</li>
 						<li><a href="logs/log_4.html">TREKCRAFT 2.0 NOW LIVE!</a>
 						<br>JANUARY 1st, 2025</li>	
-						<li><a href="logs/log_3.html">ENTERPRISE REFIT - DOWNLOAD NOW</a>
-						<br>JULY 3rd, 2024</li>
-						<li><a href="logs/log_2.html">THE FUTURE OF THE TREKCRAFT BUILD SERVER</a>
-						<br>MARCH 20th, 2024</li>
 						</ul>
+						
+						<div class="drawer-list">
+							<button class="drawer-header" onclick="toggleDrawer('2024-news-drawer')">
+								<span>2024 (2)</span>
+								<span class="drawer-toggle">▶</span>
+							</button>
+							<div class="drawer-content" id="2024-news-drawer">
+								<ul class="lcars-list">
+								<li><a href="logs/log_3.html">ENTERPRISE REFIT - DOWNLOAD NOW</a>
+								<br>JULY 3rd, 2024</li>
+								<li><a href="logs/log_2.html">THE FUTURE OF THE TREKCRAFT BUILD SERVER</a>
+								<br>MARCH 20th, 2024</li>
+								</ul>
+							</div>
+						</div>
 						
 						<!-- End content area. -->
 
 						<footer>
 							<div class="footer-inside">
 								<div class="footer-text">
-									<p>Copyright &#169; 2024 TrekCraft.</p>
+									<p>Copyright &#169; 2025 TrekCraft.</p>
 									<p>LCARS Inspired Website Template by Jim Robertus <a href="https://www.thelcars.com">www.TheLCARS.com</a>.</p>
 									<p>TrekCraft is not affiliated, sponsored, or endorsed by CBS Studios Inc. Star Trek and it's associated marks are the sole property of CBS Studios Inc.</p>
 								</div>
@@ -187,6 +246,21 @@
 		</section>
 	</div>
 	<script type="text/javascript" src="assets/lcars.js"></script>
+	<script>
+		// Drawer toggle functionality
+		function toggleDrawer(drawerId) {
+			const drawer = document.getElementById(drawerId);
+			const toggle = drawer.previousElementSibling.querySelector('.drawer-toggle');
+			
+			if (drawer.classList.contains('active')) {
+				drawer.classList.remove('active');
+				toggle.classList.remove('rotated');
+			} else {
+				drawer.classList.add('active');
+				toggle.classList.add('rotated');
+			}
+		}
+	</script>
 </body>
 
 </html>

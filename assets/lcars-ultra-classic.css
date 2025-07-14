@@ -730,6 +730,8 @@ a:active {
     user-select: none;
 }
 
+
+
 .panel-2	{
 	padding-top: 15px;
 	padding-right: 10px;
@@ -1606,7 +1608,7 @@ blockquote {
 	text-align: right;
 	border-bottom: 5px solid #000;
 	padding: 20px 10px 20px 2px;
-	background-color: #d44;
+	background-color: #f70;
 	text-transform: uppercase;
 	color: #000;
 }
