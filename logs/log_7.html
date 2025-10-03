@@ -2,12 +2,59 @@
 <html>
 
 <head>
-	<title>TrekCraft</title>
+	<title>TrekCraft - 1.21 Modpack Update</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="format-detection" content="telephone=no">
 	<meta name="format-detection" content="date=no">
 	<link rel="stylesheet" type="text/css" href="../assets/lcars-ultra-classic.css">
 	<link rel="stylesheet" type="text/css" href="../assets/lcars-colors.css">
+	<style>
+		h3 {
+			color: #ff9900;
+		}
+		
+		/* Drawer list styles */
+		.drawer-list {
+			margin: 20px 0;
+		}
+		
+		.drawer-header {
+			background-color: #c8f;
+			color: #000;
+			padding: 10px;
+			cursor: pointer;
+			font-weight: bold;
+			border: none;
+			width: 100%;
+			text-align: left;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+		
+		.drawer-header:hover {
+			background-color: #dbf;
+		}
+		
+		.drawer-content {
+			display: none;
+			border: 1px solid #c8f;
+			border-top: none;
+		}
+		
+		.drawer-content.active {
+			display: block;
+		}
+		
+		.drawer-toggle {
+			font-size: 1.2em;
+			transition: transform 0.3s ease;
+		}
+		
+		.drawer-toggle.rotated {
+			transform: rotate(90deg);
+		}
+	</style>
 	<script src="../assets/jquery-3.6.3.min.js"></script>
 </head>
 
@@ -41,10 +88,10 @@
 			</div>
 			<div class="lcars-list-2 uppercase">
 				<ul>
-					<li>Subspace Link: Established</li>
-					<li>Starfleet Database: Connected</li>
-					<li>Quantum Memory Field: stable</li>
-					<li class="oc-almond-creme go-almond-creme">Optical Data Network: rerouting</li>
+					<li>Build Team: Active</li>
+					<li>Recruitment: Open</li>
+					<li>Projects: Ongoing</li>
+					<li class="oc-almond-creme go-almond-creme">Mentorship: Available</li>
 				</ul>
 			</div>
 			<div class="pillbox">
@@ -88,6 +135,7 @@
 							<a href="https://discord.gg/SMwzupB7pv" id="b-four">DISCORD</a>
 							<a href="https://www.youtube.com/channel/UC7ifNIieMiX2DsllFIFsnBQ" id="b-five">YOUTUBE</a>
 							<a href="../aboutus.html" id="b-six">ABOUT US</a>
+							<a href="../join-build-team.html" id="b-seven">JOIN TEAM</a>
 							<a href="../server-guide.html" id="b-three">MODPACK INSTALL</a>
 						</nav>
 					</div>
@@ -129,122 +177,79 @@
 
 						<!-- Start your content here. -->
 						
-						<h2>Installing the TrekCraft Modpack</h2>
-						<div class="lcars-bar">
-						<div class="lcars-bar-inner"></div>
-						</div>
-						
-						
-						<h3 class="go-almond-creme">Versions</h3>
-						<p>Minecraft Java Edition<span class="go-gold"> 1.21.1</span></p>
-						<p>Fabric Loader<span class="go-gold"> 0.17.2</span></p>
-						<p>Server IP<span class="go-gold"> trekcraft.org</span></p>
-						<p>Pack Version<span class="go-gold"> 2025.2 (<a href="../logs/log_7.html" style="color: #ff8800;">Changelog</a>)</span></p>
-						<div class="buttons">
-							<a href="https://trekcraft-mods.s3.us-east-2.amazonaws.com/TrekCraft+1.21.1+-+2025.2+-+Visitor.zip" class="green">Download Pack</a>
-						</div>
-						
-						<p>The TrekCraft modpack comes with everything you need to explore and enjoy visiting the TrekCraft server. The pack is also fully compatible with the Axiom Editor which is recommended for players who want to try creating their own sci-fi megabuilds. Axiom, and other helpful mods are linked in the Optional Mod section below.</p>
-
-						<p>Downloading this pack also constitutes an acceptance of the license terms as outlined <a href="../licenses/1-21-license.html">here.</a>
-						</p>
-
-						<div class="lcars-bar">
-						<div class="lcars-bar-inner"></div>
-						</div>
-						
-						<h2 class="go-almond-creme">Installation Instructions</h2>
-						
-						<h3 class="go-butterscotch">Step 1: Install Prism Launcher</h3>
-<p><em>Prism is our recommended launcher for TrekCraft. It makes installing and updating modpacks much easier than doing it manually.</em></p>
-<ul>
-  <li>Download Prism <a href="https://prismlauncher.org/download/windows/">here</a> for your system</li>
-  <li>Run the installer and follow the on-screen setup guide</li>
-  <li>Need help? Prism has great setup guides <a href="https://prismlauncher.org/wiki/getting-started/">here</a></li>
-</ul>
-<p class="go-red">❗Using a different launcher? You can still install TrekCraft, but we can only provide limited support❗</p>
-
-<h3 class="go-butterscotch">Step 2: Install the TrekCraft Modpack</h3>
-<p><em>Download the pack using the green button above, then follow these steps:</em></p>
-<ul>
-  <li><strong>Easy method:</strong> Drag and drop the downloaded .ZIP file onto the Prism launcher window</li>
-  <li><strong>Manual method:</strong> In Prism, click "Add Instance" → "Import from Zip" → Select your downloaded file → "Import"</li>
-</ul>
-
-<h3 class="go-butterscotch">Step 3: Configure Your Instance</h3>
-<ul>
-  <li>Right-click on the TrekCraft instance → "Edit" → "Settings"</li>
-  <li><strong>Java:</strong> Click "Auto-detect" and select Java 21 (Prism can download it for you if needed)</li>
-  <li><strong>Memory:</strong> Set maximum RAM to 6000-10000MB (depending on your computer)</li>
-</ul>
-<p>Click "Launch" to start the game!</p>
-
-<h3 class="go-butterscotch">Step 4: First Launch</h3>
-<p><em>The game should start normally and show the TrekCraft menu. If you encounter issues, try these common fixes:</em></p>
-<ul>
-  <li><strong>Java Error (Code -1 or 0):</strong> Make sure Java 21 is selected in your instance settings</li>
-  <li><strong>Packwiz Error:</strong> This usually means a poor internet connection. Wait a few minutes and try again, or disable Packwiz temporarily</li>
-</ul>
-
-<h3 class="go-butterscotch">Step 5: Final Setup</h3>
-<p>Before joining the server, make sure to:</p>
-<ul>
-  <li><strong>Enable the TrekCraft resource pack</strong> in your resource pack settings</li>
-  <li><strong>Adjust your settings</strong> to your preferences (graphics, controls, etc.)</li>
-</ul>
-<p>The client is optimized for building large ships, but feel free to customize it to your liking!</p>
-
-
-						<h3 class="blink-faster go-mars">Troubleshooting</h3><p>If the automatic download fails, you can download mods individually from the list below.</p>
-
-						<div class="lcars-bar">
-						<div class="lcars-bar-inner"></div>
-						</div>
-						<h2 class="go-almond-creme">Mod List</h2>
-						<p>Click the buttons below for either a full list of mods included in the 1.21.1 pack, recommended optional mods for builders, or for downloads of our in-house TrekCraft mods.</p>
-
-						<div class="buttons">
-							<a href="../downloads/1-21-modlist.html" class="gold">Full Mod List</a>
-							<a href="../downloads/1-21-tc-mod-downloads.html" class="magenta">TC Mod Downloads</a>
-							<a href="../downloads/1-21-modlist.html#optional-mods" class="bluey">Optional mods</a>
+						<div class="go-center">
+						<h2>Modpack Update: 2025.2</h2>
+						<p>OCTOBER 3rd, 2025</p>
 						</div>
 
-						<div class="lcars-bar">
-							<div class="lcars-bar-inner"></div>
-							</div>
-							
-							<h2 class="go-almond-creme">Common Questions</h2>
-						<p>Here are answers to frequently asked questions about the TrekCraft modpack.</p>
-					
-						<h3 class="go-sky">A mod keeps re-enabling itself!</h3>
-						<p class="go-violet-creme">This is Packwiz (our updater) working normally. To disable a mod permanently: Right-click your instance → Edit → Settings → Custom Commands → Uncheck the Packwiz box. Re-check it later to re-enable automatic updates.</p>
-
-						<h3 class="go-sky">Can I use a different launcher?</h3>
-						<p class="go-violet-creme">Yes, but we can only provide limited support. You'll need to download mods manually from our mod list, and won't receive automatic updates. We strongly recommend using Prism for the best experience.</p>	
-
-						<h3 class="go-sky">How do I navigate the server?</h3>
-						<p class="go-violet-creme">Press "M" to open your map, or visit map.trekcraft.org for a live map. Use "/gamemode spectator" to fly through ships easily. You can also use our new mod SHAFTT by typing "/transporter" to open a transport menu.</p>	
-
-						<h3 class="go-sky">Everything is too dark!</h3>
-						<p class="go-violet-creme">Press "G" to enable gammabright for better visibility.</p>	
-
-						<h3 class="go-sky"></h3>
-						<p class="go-violet-creme"></p>	
-
-						<div class="lcars-bar">
-							<div class="lcars-bar-inner"></div>
-							</div>
-
-						<h2 class="go-almond-creme">KNOWN ISSUES</h2>
-
-						<ul class="lcars-list">
-							<li>MultiMC is not updating to current versions of Fabric properly, and thus the TrekCraft pack will fail to launch despite appearing normal. We recommend all users move to Prism Launcher which is based on MultiMC, but is more actively developed and maintained.</li>
-							<li>Apple Silicon (M1/2/3/4) based devices do not support specific graphics API's used by modern Minecraft. Specifically connected textures (Continuity), and smooth fonts (Caxton) do not run properly, and may cause crashes or text not rendering. Removing these mods will usually fix any issues. </li>
-							<li>Older GPU's, like NVIDIA 900 series cards likewise do not support modern API's used to render connected textures or smooth fonts. Disabling the Connectedness, and Caxton mods may be required to launch the pack. </li>
-							<li>Systems with less ram (16GB or less), or with older GPU's without much VRAM may find errors enabling the resource pack resource reload failed error's are common. Some users can fix this by giving their game more RAM, but this may not always work. </li>
-							<li>Running the client on a HDD is NOT recommended and may result in errors, crashes, or very long load times. Running TrekCraft on an SSD is strongly recommended.</li>
+						<div class="go-left">
+						<div class="lcars-text-bar">
+						<span class="go-almond-creme">Modpack update 2025.2 is now available</span>
+						</div>
+						
+						<p>Due to the significant number of updates/changes I'd strongly recommend downloading a fresh install of the builder client. The updated mods are also available in the "DIY" pack download but you'll be on your own for getting that running. You can also copy over JourneyMap by using the same server name + IP, and copying over the folder from <code>.minecraft/JourneyMap/data/mp</code></p>
+  
+						<h2>TrekCraft RP</h2>
+						<ul>
+						  <li>Updated to 1.2.0</li>
+						  <li>Removed thousands of unused textures by simplfiying most CTM methods</li>
+						  <li>Downscaled textures to 128x or lower</li>
+						  <li>Removed unused textures</li>
 						</ul>
-
+						
+						<h2>TrekCraft Mod</h2>
+						<ul>
+						  <li>Updated to 6.2.0</li>
+						  <li>Removed remaining unused textures</li>
+						  <li>Downscaled all textures to 128x or lower</li>
+						  <li>Updated TC logos</li>
+						</ul>
+						
+						<h2>TrekCraft Extended</h2>
+						<ul>
+						  <li>Updated to 1.3.0</li>
+						  <li>Removed remaining unused textures</li>
+						  <li>Downscaled all textures to 128x or lower</li>
+						  <li>Fixed SW tab logo and Seperatist logo block</li>
+						  <li>Fixed white gray light texture</li>
+						</ul>
+						
+						<h2>ExtraPieces</h2>
+						<ul>
+						  <li>Updated to 1.0.2</li>
+						  <li>Fixed Axiom/WorldEdit rotation for all block types</li>
+						</ul>
+						
+						<h2>ExtraBlocks</h2>
+						<ul>
+						  <li>Updated to 1.0.1</li>
+						  <li>Fixed Axiom/WorldEdit rotation for quarters &amp; eighths</li>
+						</ul>
+						
+						<h2>Client Mods</h2>
+						<ul>
+						  <li>Chat Heads updated to 0.14.0</li>
+						  <li>Collective updated to 8.5</li>
+						  <li>Fabric API updated to 0.116.6</li>
+						  <li>Fabric Language Kotlin updated to 1.13.6</li>
+						  <li>Farsight replaced with Bobby</li>
+						  <li>Flashback updated to 0.37.0</li>
+						  <li>Full Brightness Toggle replaced with Gamma Utils</li>
+						  <li>WTHIT updated to 12.5.5</li>
+						  <li>YACL updated to 3.8.0</li>
+						  <li>Zoomify updated to 2.14.6</li>
+						</ul>
+						
+						<h2>Loaders/MC Versions</h2>
+						<ul>
+						  <li>Updated Fabric loader from 0.16.4 to 0.17.2</li>
+						</ul>
+						
+						<h2>Other Changes/Fixes</h2>
+						<ul>
+						  <li>Added new TC Skybox rp</li>
+						</ul>
+						
 						<!-- End content area. -->
 
 						<footer>
@@ -263,6 +268,21 @@
 		</section>
 	</div>
 	<script type="text/javascript" src="../assets/lcars.js"></script>
+	<script>
+		// Drawer toggle functionality
+		function toggleDrawer(drawerId) {
+			const drawer = document.getElementById(drawerId);
+			const toggle = drawer.previousElementSibling.querySelector('.drawer-toggle');
+			
+			if (drawer.classList.contains('active')) {
+				drawer.classList.remove('active');
+				toggle.classList.remove('rotated');
+			} else {
+				drawer.classList.add('active');
+				toggle.classList.add('rotated');
+			}
+		}
+	</script>
 </body>
 
-</html>
+</html> 
