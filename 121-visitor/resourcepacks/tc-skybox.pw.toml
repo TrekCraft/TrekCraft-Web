@@ -1,0 +1,7 @@
+name = "tc-skybox"
+filename = "TrekCraft_Skybox_1.21.1_1.0.0.zip"
+
+[download]
+url = "https://trekcraft-mods.s3.us-east-2.amazonaws.com/TrekCraft_Skybox_1.21.1_1.0.0.zip"
+hash-format = "sha256"
+hash = "cee6addcc447803e8726d4845e0e0b68339c43253f5537af2e93d55b707dbcb5"
