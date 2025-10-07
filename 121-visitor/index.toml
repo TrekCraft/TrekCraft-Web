@@ -51,11 +51,6 @@ hash = "fe0227b0a3fca86169c5f910aa18df7f2d07d294b2a62ad081db664c55c76201"
 metafile = true
 
 [[files]]
-file = "mods/borderless-fullscreen.pw.toml"
-hash = "a731b9abd86c8651aa571b63b7f31356a75ded9226d14b4f2793de4ca7508fc0"
-metafile = true
-
-[[files]]
 file = "mods/brrp.pw.toml"
 hash = "b266412e6cc8a196db65cf55cfc20e9de426ca1f244a3466926e36349104d6be"
 metafile = true
