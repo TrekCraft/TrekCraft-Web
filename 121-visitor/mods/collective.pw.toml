@@ -4,8 +4,8 @@ side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/e0M1UDsY/versions/X9oCIbX0/collective-1.21.1-8.5.jar"
-hash-format = "sha512"
-hash = "ee5227b257672a5756da6f5213476f97eea5b37f19bbec2b6dfbf42997ffd030e8d5f4cfa531335eee05db0de255355f6cac80db0b41b4ef7ab9ee8f4a2da6df"
+hash-format = "sha256"
+hash = "e69158a3cbf05a2cf188af00171251dba73a692e58f6e3b4bfab11d205d7211c"
 
 [update]
 [update.modrinth]

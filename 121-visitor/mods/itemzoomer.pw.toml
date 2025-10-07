@@ -4,8 +4,8 @@ side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/OgBgQ2NP/versions/L4LCHU6S/itemzoomer-1.1.0-1.21.1.jar"
-hash-format = "sha512"
-hash = "40dc286f4a95542df7058c5d25bfaed330df993262b4b915ac24e506715f99af51c5861061bb6fca018a414072917794c8863992960e12850b7055526e4c74ec"
+hash-format = "sha256"
+hash = "28371c56e34a2c73ffecf4b12cce657a4c1e90cd6b3b1cfffa23b70a5909a5eb"
 
 [update]
 [update.modrinth]

@@ -12,7 +12,7 @@ metafile = true
 
 [[files]]
 file = "mods/astralblocks.pw.toml"
-hash = "6e7b707ea3feca0975ac591d3b98f115b80b7420cffdb9b08399f0f06fabfafa"
+hash = "7c239a8be379473c9e7277f57d7ce8d77b4edcf6a4de8a4c16b06eeaa3611e31"
 metafile = true
 
 [[files]]
@@ -37,7 +37,7 @@ metafile = true
 
 [[files]]
 file = "mods/betterf3.pw.toml"
-hash = "a386e900a1c9d11241f8eeaf04caf754a4917b92a27d9487dca66edfacce3771"
+hash = "d6d8f28b707354145e57032acf7c606bf3fbf3b3c0874cefb8ca25793a912d7c"
 metafile = true
 
 [[files]]
@@ -47,12 +47,12 @@ metafile = true
 
 [[files]]
 file = "mods/bobby.pw.toml"
-hash = "7d421e73ca800856cd68f151ca579f5866b09f8fd9a9b42654cfa99fe5c7174c"
+hash = "fe0227b0a3fca86169c5f910aa18df7f2d07d294b2a62ad081db664c55c76201"
 metafile = true
 
 [[files]]
 file = "mods/borderless-fullscreen.pw.toml"
-hash = "fd31f0aa0f2fbfde0579c9dcddc72d7a64c4561fb327e6dcb890110304e7fefc"
+hash = "a731b9abd86c8651aa571b63b7f31356a75ded9226d14b4f2793de4ca7508fc0"
 metafile = true
 
 [[files]]
@@ -67,7 +67,7 @@ metafile = true
 
 [[files]]
 file = "mods/collective.pw.toml"
-hash = "b19c78ef382071d9840faee960d6616c4f1e7876ed633f193b8f83f8f582a1f0"
+hash = "ea0321090459a75936f0603890127bedfb14e3c962955ead0d2f40269be7af4a"
 metafile = true
 
 [[files]]
@@ -97,7 +97,7 @@ metafile = true
 
 [[files]]
 file = "mods/extrapieces.pw.toml"
-hash = "453f3b23b9898644380d4a3cb70f0f90a1ad5e5295a82c1529b7e57b3b171750"
+hash = "6e958f96fd1bd659aa6eb24f37b05c5a1c61804697b56e26b3ef014ef79761d1"
 metafile = true
 
 [[files]]
@@ -112,17 +112,17 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "52ad1d4a1c03a3dd5b04bcd2b83c0d8e1256ef9fbf011f1530231855c6b16a59"
+hash = "dfca9d41ed4f455d125f53d507885063f34e9974e24e665c04c7407d7396491e"
 metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "216006067453efa7a750f0d8bac6ea84c503b79e40aba32bd77c9edd183ec232"
+hash = "bf60e9b23fe38e99d24ec584b108b89c803deb06993844fd0ecf5928d970e98c"
 metafile = true
 
 [[files]]
 file = "mods/fallingleaves.pw.toml"
-hash = "3f1bc4dbc29a6ae9a6b203e5177e25b740fe2bac0e179e3219cdbf621f9a73f7"
+hash = "09b2e10eef066f8265d118f08d29b05dbeec1e03e86682d18936ac992deda105"
 metafile = true
 
 [[files]]
@@ -132,7 +132,7 @@ metafile = true
 
 [[files]]
 file = "mods/gamma-utils.pw.toml"
-hash = "739f29c344bb1121bf1963ed7fa73ae252c863cbd6c9d2ef15d7059ee848e78b"
+hash = "e26a1b24dab8105f27dd9b28f3f98b3b3e3fc1565abcc8b13ff2d6ce5d580174"
 metafile = true
 
 [[files]]
@@ -147,7 +147,7 @@ metafile = true
 
 [[files]]
 file = "mods/itemzoomer.pw.toml"
-hash = "46aeb662c048a66521eb3d10fae815c51a733ec8b35abde7fd2d5a3a7ecbdce4"
+hash = "2688aa43d6bb237d1913c8470fab47b174a72a8a0589630ee7a976e8ad46c370"
 metafile = true
 
 [[files]]
@@ -157,7 +157,7 @@ metafile = true
 
 [[files]]
 file = "mods/konkrete.pw.toml"
-hash = "89d4fea654bab606c3777372d4bf30fa98313c8e7adfaad1a27eee95d6f71f99"
+hash = "ae3ae6c17b65f212f54a67a4144ab1e790356c1d9c22010421e4b65f2c7dc42e"
 metafile = true
 
 [[files]]
@@ -187,7 +187,7 @@ metafile = true
 
 [[files]]
 file = "mods/nuit.pw.toml"
-hash = "cf4069fa0d413aa55c0eaca14e7ffd7f472764af98b34459a9bf03a7073aa212"
+hash = "18698b8f79bbab5264e39fd5cbcbf7f7d490d124c68c8c3f3ff02f439853c6ff"
 metafile = true
 
 [[files]]
@@ -207,7 +207,7 @@ metafile = true
 
 [[files]]
 file = "mods/screenshot-to-clipboard.pw.toml"
-hash = "98418e96883364e79004119b2ef6b77cf1d4e6d5184972ce946d5f6df0675caa"
+hash = "089f74359d1aa2a35ead86da3d9437bfdeb9fba98c7b3324c1705267d6dac427"
 metafile = true
 
 [[files]]
@@ -232,22 +232,22 @@ metafile = true
 
 [[files]]
 file = "mods/spark.pw.toml"
-hash = "f93fc683b99d7405f4d54cdd799e7adbc99388a10c44e0271acb11276de4a934"
+hash = "f53fd4dda055822c708055c146409d0d8b1ed6168024999ab890eaec08f22284"
 metafile = true
 
 [[files]]
 file = "mods/trekcraft-extended.pw.toml"
-hash = "dc866f0c6b451faa25c328b4923f34cb3c1b1bef0b5bbfa9d3f2792e79c8374a"
+hash = "59c1984f954358c8aab65509e0d0362268bc1c980543bf3d6f2aee1e9e94fd65"
 metafile = true
 
 [[files]]
 file = "mods/trekcraft-mod.pw.toml"
-hash = "8a5fa3ee3e4e17dffd0bc8920e040a69a6c20e24d7ef3d49b68d27ef4b24edf9"
+hash = "2bc01f1d3608482c8959ce3f3738f1fcb3042016979655714057cc948c9a83e0"
 metafile = true
 
 [[files]]
 file = "mods/yacl.pw.toml"
-hash = "fb25f179c547862f95606e46f8ac90732b266270313e8969e6d1d24c47b06cc9"
+hash = "b4bc54af0904a3d1de84b51542745581ace5da9ae75ef4c2cf1445e825048c8d"
 metafile = true
 
 [[files]]
@@ -257,7 +257,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/tc-skybox.pw.toml"
-hash = "067bb26ef2305e23bcc6c6efd1a36dcd6d87182773392cf9007bc4c69a9e8c2f"
+hash = "24d6ba1cde45b26ce44a78fae0f4d4bd26e54e542fcc2b697b312045bb56030f"
 metafile = true
 
 [[files]]
