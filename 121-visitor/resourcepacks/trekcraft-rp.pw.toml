@@ -1,7 +1,7 @@
-name = "TrekCraft_RP"
-filename = "TrekCraft+RP+++1.21.1+++v1.1.0.zip"
+name = "trekcraft-rp"
+filename = "TrekCraft-RP-1.2.0.zip"
 
 [download]
-url = "https://trekcraft-mods.s3.us-east-2.amazonaws.com/TrekCraft+RP+%2B+1.21.1+%2B+v1.1.0.zip"
+url = "https://trekcraft-mods.s3.us-east-2.amazonaws.com/TrekCraft-RP-1.2.0.zip"
 hash-format = "sha256"
-hash = "833137b134ca2d47663a7a28972e2bfd4030df52baaac1b040bcc5714359ec3a"
+hash = "6f75f82e4f1db445de9bfc370cd697f0671ebc552541e4e1e56e1afddd861628"
