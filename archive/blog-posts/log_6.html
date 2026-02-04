@@ -2,13 +2,60 @@
 <html>
 
 <head>
-	<title>TrekCraft</title>
+	<title>TrekCraft - Build Team Applications Open</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="format-detection" content="telephone=no">
 	<meta name="format-detection" content="date=no">
-	<link rel="stylesheet" type="text/css" href="../assets/lcars-ultra-classic.css">
-	<link rel="stylesheet" type="text/css" href="../assets/lcars-colors.css">
-	<script src="../assets/jquery-3.6.3.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../../assets/lcars-ultra-classic.css">
+	<link rel="stylesheet" type="text/css" href="../../assets/lcars-colors.css">
+	<style>
+		h3 {
+			color: #ff9900;
+		}
+		
+		/* Drawer list styles */
+		.drawer-list {
+			margin: 20px 0;
+		}
+		
+		.drawer-header {
+			background-color: #c8f;
+			color: #000;
+			padding: 10px;
+			cursor: pointer;
+			font-weight: bold;
+			border: none;
+			width: 100%;
+			text-align: left;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+		
+		.drawer-header:hover {
+			background-color: #dbf;
+		}
+		
+		.drawer-content {
+			display: none;
+			border: 1px solid #c8f;
+			border-top: none;
+		}
+		
+		.drawer-content.active {
+			display: block;
+		}
+		
+		.drawer-toggle {
+			font-size: 1.2em;
+			transition: transform 0.3s ease;
+		}
+		
+		.drawer-toggle.rotated {
+			transform: rotate(90deg);
+		}
+	</style>
+	<script src="../../assets/jquery-3.6.3.min.js"></script>
 </head>
 
 <body>
@@ -41,10 +88,10 @@
 			</div>
 			<div class="lcars-list-2 uppercase">
 				<ul>
-					<li>Subspace Link: Established</li>
-					<li>Starfleet Database: Connected</li>
-					<li>Quantum Memory Field: stable</li>
-					<li class="oc-almond-creme go-almond-creme">Optical Data Network: rerouting</li>
+					<li>Build Team: Active</li>
+					<li>Recruitment: Open</li>
+					<li>Projects: Ongoing</li>
+					<li class="oc-almond-creme go-almond-creme">Mentorship: Available</li>
 				</ul>
 			</div>
 			<div class="pillbox">
@@ -86,7 +133,8 @@
 							<a href="../index.html" id="b-one" class="go-away">HOME</a>
 							<a href="https://discord.gg/em82rQDxQp" id="b-four">DISCORD</a>
 							<a href="https://www.youtube.com/channel/UC7ifNIieMiX2DsllFIFsnBQ" id="b-five">YOUTUBE</a>
-							<a href="../builds.html" id="b-eight">BUILDS</a>
+							<a href="../../builds.html" id="b-eight">BUILDS</a>
+							<a href="../join-build-team.html" id="b-seven">JOIN TEAM</a>
 							<a href="../server-guide.html" id="b-three">MODPACK INSTALL</a>
 						</nav>
 					</div>
@@ -104,7 +152,8 @@
 					<div>
 						<div class="panel-3">03<span class="hop">-111968</span></div>
 						<div class="sidebar-buttons">
-							<a href="rules.html">RULES</a>
+							<a href="../rules.html">RULES</a>
+							<a href="builders/login.html">TEAM ACCESS</a>
 						</div>
 						<div class="panel-6">06<span class="hop">-071984</span></div>
 						<div class="panel-7">07<span class="hop">-081940</span></div>
@@ -127,54 +176,83 @@
 
 						<!-- Start your content here. -->
 						
-						<h2>Modpack License and Terms - Forge 1.18.2</h2>
-						<div class="lcars-bar">
-						<div class="lcars-bar-inner"></div>
+						<div class="go-center">
+						<h2>TrekCraft Build Team Applications Are Now Open!</h2>
+						<p>JULY 14th, 2025</p>
 						</div>
-	
-						<p>This license governs the use, distribution, and modification of <strong>TrekCraft - Forge Edition Modpack</strong> ("the Modpack"). By using this Modpack, you agree to the following terms:</p>
 
-						<h2 class="go-almond-creme">1. Permitted Use</h2>
-						<ul>
-							<li>The Modpack may be used for personal and non-commercial purposes, including use in projects, modpacks, and on multiplayer servers.</li>
-							<li>Commercial use is defined as the use of the TrekCraft modpack, or Mods to earn a profit. For example; Selling world downloads.</li>
-							<li>Proper credit must be given to <strong>TrekCraft</strong> in all uses of the Modpack.</li>
-						</ul>
-					
-						<h2 class="go-almond-creme">2. Attribution</h2>
-						<ul>
-							<li>When using the Modpack in a public project, modpack, or server, credit must include the name <strong>TrekCraft - Forge Edition</strong> and a link to the official download page.</li>
-							<li>Attribution must be clearly visible in project descriptions, modpack lists, or server information pages.</li>
-						</ul>
-					
-						<h2 class="go-almond-creme">3. Distribution</h2>
-						<ul>
-							<li>The Modpack may only be downloaded from the <strong>official download page</strong> provided by the Author.</li>
-							<li>Redistribution through third-party platforms or websites is strictly forbidden.</li>
-						</ul>
-					
-						<h2 class="go-almond-creme">4. Respect for Third-Party Mods</h2>
-						<ul>
-							<li>This Modpack includes third-party mods that are downloaded using the official CurseForge or Modrinth API to ensure sanctioned downloads.</li>
-							<li>Each third-party mod included in the Modpack is subject to its own license and terms of use, which this license does not override.</li>
-							<li>Users are <strong>responsible for reviewing and respecting the terms</strong> of all third-party mods included in the Modpack.</li>
-						</ul>
-					
-						<h2 class="go-almond-creme">5. Trademark Acknowledgment</h2>
-						<ul>
-							<li><strong>Star Trek</strong> and <strong>Star Wars</strong> are trademarks of their respective rights holders.</li>
-							<li>The Modpack is a <strong>non-commercial, non-profit project</strong> and is not affiliated with or endorsed by CBS, Paramount, Disney, Lucasfilm, or any other rights holders.</li>
-						</ul>
-					
-						<h2 class="go-almond-creme">6. Disclaimer</h2>
-						<ul>
-							<li>The Modpack is provided "as is," without warranty of any kind. The Author is not responsible for any issues or damages arising from its use. The terms of this license may also be modified at-will and without notice.</li>
+						<div class="go-left">
+						<div class="lcars-text-bar">
+						<span class="go-almond-creme">Build Team Applications Are Open</span>
+						</div>
+						
+						<p>We're excited to announce that TrekCraft build team applications are now open!</p>
+						
+						<p>TrekCraft is the longest-running sci-fi megabuilding community in Minecraft. We build massive Star Trek ships — some take months or even years to complete. It's a collaborative environment where we work together on these huge projects.</p>
+						
+						<div class="lcars-text-bar">
+						<span class="go-almond-creme">What We Do</span>
+						</div>
+						
+						<p>We build massive ships (500+ meters) with dozens of decks, using our custom resource pack and suite of mods. Our builds respect canon and push what's possible in Minecraft. It's not just building — it's being part of a team that cares about the work.</p>
+						
+						<div class="lcars-text-bar">
+						<span class="go-almond-creme">The Process</span>
+						</div>
+						
+						<p>Here's how it works:</p>
+						<ul class="lcars-list">
+							<li><strong>Application:</strong> Build 6+ themed plots using our 1.21.1 modpack</li>
+							<li><strong>Trial Period:</strong> Roughly 4-8 weeks working with the team</li>
+							<li><strong>Full Builder:</strong> Access to everything and your own projects</li>
 						</ul>
 						
-						<div class="buttons">
-							<a href="../server-guide.html" class="bluey">Go Back</a>
+						<div class="lcars-text-bar">
+						<span class="go-almond-creme">What We Look For</span>
 						</div>
-
+						
+						<p>We want teammates, not just builders. You need to be:</p>
+						<ul class="lcars-list">
+							<li>16+ with good communication skills</li>
+							<li>Able to work independently but also collaboratively</li>
+							<li>Committed to long-term projects</li>
+							<li>Passionate about Star Trek and sci-fi building</li>
+							<li>Open to feedback and willing to learn</li>
+							<li>Social and casual — we're nerds building nerdy things</li>
+						</ul>
+						
+						<div class="lcars-text-bar">
+						<span class="go-almond-creme">The Reality</span>
+						</div>
+						
+						<p>This isn't easy. Our builds are complex, our standards are high, and it takes time to learn our style. But if you're willing to put in the work, learn from feedback, and be part of a team, it's incredibly rewarding.</p>
+						
+						<p>We're honest about the effort required because we want people who are ready for the challenge. But we also know that the best builders often start with passion rather than perfect skills.</p>
+						
+						<div class="lcars-text-bar">
+						<span class="go-almond-creme">Ready to Try?</span>
+						</div>
+						
+						<p>If you're interested, start by reading our complete application guide. It has all the details about what to build, how to apply, and what to expect.</p>
+						
+						<div class="buttons">
+							<a href="../join-build-team.html" class="orange">Application Guide</a>
+							<a href="../modpack-guides/1-21-modpack-guide.html" class="blue">Visit TrekCraft</a>
+							<a href="https://discord.gg/em82rQDxQp" class="green">Join Discord</a>
+						</div>
+						
+						<p>Even if you're not ready to join the build team, you're welcome in our Discord community. Many of our current builders started as visitors.</p>
+						
+						<p>We appreciate everyone who takes the time to apply. It shows you care about what we do, and that's what matters most.</p>
+						
+						<div class="go-center">
+						<h3><strong>Live long and prosper! 🖖</strong></h3>
+						</div>
+						
+						<hr style="border: 1px solid #f70; margin: 30px 0;">
+						
+						<p><em>Questions about the application process? Join our Discord or check out our <a href="../join-build-team.html">complete application guide</a>.</em></p>
+						
 						<!-- End content area. -->
 
 						<footer>
@@ -192,7 +270,22 @@
 			</div>
 		</section>
 	</div>
-	<script type="text/javascript" src="../assets/lcars.js"></script>
+	<script type="text/javascript" src="../../assets/lcars.js"></script>
+	<script>
+		// Drawer toggle functionality
+		function toggleDrawer(drawerId) {
+			const drawer = document.getElementById(drawerId);
+			const toggle = drawer.previousElementSibling.querySelector('.drawer-toggle');
+			
+			if (drawer.classList.contains('active')) {
+				drawer.classList.remove('active');
+				toggle.classList.remove('rotated');
+			} else {
+				drawer.classList.add('active');
+				toggle.classList.add('rotated');
+			}
+		}
+	</script>
 </body>
 
-</html>
+</html> 
